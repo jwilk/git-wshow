@@ -28,6 +28,7 @@ then
 fi
 commit=$(git rev-parse "$@")
 remote_url=$(git remote get-url "$remote")
+remote_url=${remote_url%/}
 url=
 case $remote_url in
     https://github.com/*|https://gitlab.com/*|https://salsa.debian.org/*|https://gitlab.gnome.org/*)
