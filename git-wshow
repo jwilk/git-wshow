@@ -47,6 +47,9 @@ case $remote_url in
     git://git.code.sf.net/p/*|https://git.code.sf.net/p/*)
         repo=${remote_url#*://git.code.sf.net/p/}
         url="https://sourceforge.net/p/${repo%.git}/ci/$commit/";;
+    git://git.suckless.org/*)
+        repo=${remote_url#git://git.suckless.org/}
+        url="https://git.suckless.org/$repo/commit/${commit}.html";;
 esac
 if [ -z "$url" ]
 then
