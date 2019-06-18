@@ -48,8 +48,7 @@ case $remote_url in
         repo=${remote_url#*://git.code.sf.net/p/}
         url="https://sourceforge.net/p/${repo%.git}/ci/$commit/";;
     git://git.suckless.org/*)
-        repo=${remote_url#git://git.suckless.org/}
-        url="https://git.suckless.org/$repo/commit/${commit}.html";;
+        url="https://${remote_url#git://}/commit/${commit}.html";;
     https://repo.or.cz/*)
         url="${remote_url%.git}.git/commitdiff/$commit";;
 esac
