@@ -54,6 +54,9 @@ case $remote_url in
     git://gerrit.libreoffice.org/*)
         repo=${remote_url#git://gerrit.libreoffice.org/}
         url="https://gerrit.libreoffice.org/plugins/gitiles/${repo%.git}/+/$commit";;
+    https://git.xiph.org/*)
+        repo=${remote_url#https://git.xiph.org/}
+        url="https://git.xiph.org/?p=$repo;a=commitdiff;h=$commit";;
 esac
 if [ -z "$url" ]
 then
