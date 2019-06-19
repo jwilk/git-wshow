@@ -51,6 +51,8 @@ case $remote_url in
     https://git.torproject.org/*)
         repo=${remote_url#https://git.torproject.org/}
         url="https://gitweb.torproject.org/${repo%.git}.git/commit/?id=$commit";;
+    https://git.launchpad.net/*)
+        url="$remote_url/commit/?id=$commit";;
     git://git.code.sf.net/p/*|https://git.code.sf.net/p/*)
         repo=${remote_url#*://git.code.sf.net/p/}
         url="https://sourceforge.net/p/${repo%.git}/ci/$commit/";;
