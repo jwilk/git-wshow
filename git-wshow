@@ -66,6 +66,36 @@ case $remote_url in
     https://git.apache.org/*)
         repo=${remote_url#https://git.apache.org/}
         url="https://github.com/apache/${repo%.git}/commit/$commit";;
+    https://dev.gnupg.org/source/*)
+        repo=${remote_url#https://dev.gnupg.org/source/}
+        code=
+        case ${repo%.git} in
+            lkleo) code=LIBKLEO;;
+            gpgme) code=M;;
+            gnupg) code=G;;
+            libgpg-error) code=E;;
+            gpg4win) code=W;;
+            gnupg-doc) code=D;;
+            gpgol) code=O;;
+            libgcrypt) code=C;;
+            kleo) code=KLEOPATRA;;
+            pinentry) code=P;;
+            g4wt) code=GTO;;
+            libksba) code=K;;
+            npth) code=PTH;;
+            gpa) code=GPA;;
+            Scute) code=S;;
+            libassuan) code=A;;
+            ntbtls) code=T;;
+            gpgex) code=X;;
+            payproc) code=PAY;;
+            book) code=BOOK;;
+            phabricator) code=PHAB;;
+            libphutil) code=PHUTIL;;
+            arcanist) code=ARC;;
+            TinySCHEME) code=SCM;;
+        esac
+        [ -n "$code" ] && url="https://dev.gnupg.org/r${code}${commit}"
 esac
 if [ -z "$url" ]
 then
