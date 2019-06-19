@@ -33,6 +33,8 @@ url=
 case $remote_url in
     https://github.com/*|https://gitlab.com/*|https://salsa.debian.org/*|https://gitlab.gnome.org/*)
         url="${remote_url%.git}/commit/$commit";;
+    https://bitbucket.org/*)
+        url="${remote_url%.git}/commits/$commit";;
     https://anongit.freedesktop.org/git/*)
         repo=${remote_url#https://anongit.freedesktop.org/git/}
         url="https://cgit.freedesktop.org/${repo%.git}/commit/?id=$commit";;
