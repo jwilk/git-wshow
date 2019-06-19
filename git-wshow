@@ -66,6 +66,8 @@ case $remote_url in
     https://git.apache.org/*)
         repo=${remote_url#https://git.apache.org/}
         url="https://github.com/apache/${repo%.git}/commit/$commit";;
+    https://pagure.io/*)
+        url="${remote_url%.git}/c/$commit";;
     https://dev.gnupg.org/source/*)
         repo=${remote_url#https://dev.gnupg.org/source/}
         code=
