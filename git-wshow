@@ -69,6 +69,9 @@ case $remote_url in
     https://git.samba.org/*)
         repo=${remote_url#https://git.samba.org/}
         url="https://git.samba.org/?p=$repo;a=commitdiff;h=$commit";;
+    https://git.ghostscript.com/*)
+        repo=${remote_url#https://git.ghostscript.com/}
+        url="https://git.ghostscript.com/?p=$repo;a=commitdiff;h=$commit";;
     git://sourceware.org/git/*|https://sourceware.org/git/*)
         repo=${remote_url#*://sourceware.org/git/}
         url="https://sourceware.org/git/?p=$repo;a=commitdiff;h=$commit";;
