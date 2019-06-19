@@ -63,6 +63,9 @@ case $remote_url in
     git://sourceware.org/git/*|https://sourceware.org/git/*)
         repo=${remote_url#*://sourceware.org/git/}
         url="https://sourceware.org/git/?p=$repo;a=commitdiff;h=$commit";;
+    https://git.apache.org/*)
+        repo=${remote_url#https://git.apache.org/}
+        url="https://github.com/apache/${repo%.git}/commit/$commit";;
 esac
 if [ -z "$url" ]
 then
