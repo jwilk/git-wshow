@@ -56,6 +56,9 @@ case $remote_url in
     git://git.liw.fi/*)
         repo=${remote_url#git://git.liw.fi/}
         url="http://git.liw.fi/${repo%.git}/commit/?id=$commit";;
+    https://git.joeyh.name/git/*)
+        repo=${remote_url#https://git.joeyh.name/git/}
+        url="https://git.joeyh.name/index.cgi/$repo/commit/?id=$commit";;
     git://git.code.sf.net/p/*|https://git.code.sf.net/p/*)
         repo=${remote_url#*://git.code.sf.net/p/}
         url="https://sourceforge.net/p/${repo%.git}/ci/$commit/";;
