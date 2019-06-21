@@ -42,6 +42,8 @@ case $remote_url in
         url="${remote_url}/commit/?id=$commit";;
     https://git.kernel.org/pub/scm/*)
         url="${remote_url%.git}.git/commit/?id=$commit";;
+    https://git.zx2c4.com/*)
+        url="${remote_url%.git}/commit/?id=$commit";;
     https://git.savannah.gnu.org/git/*)
         repo=${remote_url#https://git.savannah.gnu.org/git/}
         url="https://git.savannah.gnu.org/cgit/${repo%.git}.git/commit/?id=$commit";;
