@@ -38,7 +38,7 @@ case $remote_url in
     https://anongit.freedesktop.org/git/*)
         repo=${remote_url#https://anongit.freedesktop.org/git/}
         url="https://cgit.freedesktop.org/${repo%.git}/commit/?id=$commit";;
-    https://git.netfilter.org/*)
+    https://git.netfilter.org/*|https://git.linuxtv.org/*)
         url="${remote_url}/commit/?id=$commit";;
     https://git.kernel.org/pub/scm/*)
         url="${remote_url%.git}.git/commit/?id=$commit";;
