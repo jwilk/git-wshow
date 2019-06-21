@@ -31,7 +31,7 @@ remote_url=$(git remote get-url "$remote")
 remote_url=${remote_url%/}
 url=
 case $remote_url in
-    https://github.com/*|https://gitlab.com/*|https://salsa.debian.org/*|https://gitlab.gnome.org/*|https://gitlab.mister-muffin.de/*)
+    https://github.com/*|https://gitlab.com/*|https://salsa.debian.org/*|https://gitlab.gnome.org/*|https://gitlab.mister-muffin.de/*|https://code.videolan.org/*)
         url="${remote_url%.git}/commit/$commit";;
     https://bitbucket.org/*)
         url="${remote_url%.git}/commits/$commit";;
