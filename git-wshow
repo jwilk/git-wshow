@@ -89,6 +89,9 @@ case $remote_url in
     https://scm.gforge.inria.fr/anonscm/git/*)
         repo=${remote_url#https://scm.gforge.inria.fr/anonscm/git/}
         url="https://scm.gforge.inria.fr/anonscm/gitweb?p=${repo%.git}.git;a=commitdiff;h=$commit";;
+    https://git.tartarus.org/*)
+        repo=${remote_url#https://git.tartarus.org/}
+        url="https://git.tartarus.org/?p=${repo%.git}.git;a=commitdiff;h=$commit";;
     https://git.apache.org/*)
         repo=${remote_url#https://git.apache.org/}
         url="https://github.com/apache/${repo%.git}/commit/$commit";;
