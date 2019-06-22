@@ -40,11 +40,11 @@ case $remote_url in
         repo=${remote_url#https://anongit.freedesktop.org/git/}
         url="https://cgit.freedesktop.org/$repo/commit/?id=$commit";;
     https://git.netfilter.org/*)
-        url="${remote_url}/commit/?id=$commit";;
+        url="$remote_url/commit/?id=$commit";;
     https://git.kernel.org/pub/scm/*|https://git.linuxtv.org/*)
-        url="${remote_url}.git/commit/?id=$commit";;
+        url="$remote_url.git/commit/?id=$commit";;
     https://git.zx2c4.com/*)
-        url="${remote_url}/commit/?id=$commit";;
+        url="$remote_url/commit/?id=$commit";;
     https://git.savannah.gnu.org/git/*)
         repo=${remote_url#https://git.savannah.gnu.org/git/}
         url="https://git.savannah.gnu.org/cgit/$repo.git/commit/?id=$commit";;
@@ -66,7 +66,7 @@ case $remote_url in
         repo=${remote_url#*://git.code.sf.net/p/}
         url="https://sourceforge.net/p/$repo/ci/$commit/";;
     git://git.suckless.org/*)
-        url="https://${remote_url#git://}/commit/${commit}.html";;
+        url="https://${remote_url#git://}/commit/$commit.html";;
     https://repo.or.cz/*)
         url="$remote_url.git/commitdiff/$commit";;
     git://gerrit.libreoffice.org/*)
