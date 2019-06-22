@@ -29,81 +29,82 @@ fi
 commit=$(git rev-parse "$@")
 remote_url=$(git remote get-url "$remote")
 remote_url=${remote_url%/}
+remote_url=${remote_url%.git}
 url=
 case $remote_url in
     https://github.com/*|https://gitlab.com/*|https://salsa.debian.org/*|https://gitlab.gnome.org/*|https://gitlab.mister-muffin.de/*|https://code.videolan.org/*|https://dev.lovelyhq.com/*|https://notabug.org/*)
-        url="${remote_url%.git}/commit/$commit";;
+        url="$remote_url/commit/$commit";;
     https://bitbucket.org/*)
-        url="${remote_url%.git}/commits/$commit";;
+        url="$remote_url/commits/$commit";;
     https://anongit.freedesktop.org/git/*)
         repo=${remote_url#https://anongit.freedesktop.org/git/}
-        url="https://cgit.freedesktop.org/${repo%.git}/commit/?id=$commit";;
-    https://git.netfilter.org/*|https://git.linuxtv.org/*)
+        url="https://cgit.freedesktop.org/$repo/commit/?id=$commit";;
+    https://git.netfilter.org/*)
         url="${remote_url}/commit/?id=$commit";;
-    https://git.kernel.org/pub/scm/*)
-        url="${remote_url%.git}.git/commit/?id=$commit";;
+    https://git.kernel.org/pub/scm/*|https://git.linuxtv.org/*)
+        url="${remote_url}.git/commit/?id=$commit";;
     https://git.zx2c4.com/*)
-        url="${remote_url%.git}/commit/?id=$commit";;
+        url="${remote_url}/commit/?id=$commit";;
     https://git.savannah.gnu.org/git/*)
         repo=${remote_url#https://git.savannah.gnu.org/git/}
-        url="https://git.savannah.gnu.org/cgit/${repo%.git}.git/commit/?id=$commit";;
+        url="https://git.savannah.gnu.org/cgit/$repo.git/commit/?id=$commit";;
     https://git.savannah.nongnu.org/git/*)
         repo=${remote_url#https://git.savannah.nongnu.org/git/}
-        url="https://git.savannah.nongnu.org/cgit/${repo%.git}.git/commit/?id=$commit";;
+        url="https://git.savannah.nongnu.org/cgit/$repo.git/commit/?id=$commit";;
     https://git.torproject.org/*)
         repo=${remote_url#https://git.torproject.org/}
-        url="https://gitweb.torproject.org/${repo%.git}.git/commit/?id=$commit";;
+        url="https://gitweb.torproject.org/$repo.git/commit/?id=$commit";;
     https://git.launchpad.net/*)
         url="$remote_url/commit/?id=$commit";;
     git://git.liw.fi/*)
         repo=${remote_url#git://git.liw.fi/}
-        url="http://git.liw.fi/${repo%.git}/commit/?id=$commit";;
+        url="http://git.liw.fi/$repo/commit/?id=$commit";;
     https://git.joeyh.name/git/*)
         repo=${remote_url#https://git.joeyh.name/git/}
-        url="https://git.joeyh.name/index.cgi/$repo/commit/?id=$commit";;
+        url="https://git.joeyh.name/index.cgi/$repo.git/commit/?id=$commit";;
     git://git.code.sf.net/p/*|https://git.code.sf.net/p/*)
         repo=${remote_url#*://git.code.sf.net/p/}
-        url="https://sourceforge.net/p/${repo%.git}/ci/$commit/";;
+        url="https://sourceforge.net/p/$repo/ci/$commit/";;
     git://git.suckless.org/*)
         url="https://${remote_url#git://}/commit/${commit}.html";;
     https://repo.or.cz/*)
-        url="${remote_url%.git}.git/commitdiff/$commit";;
+        url="$remote_url.git/commitdiff/$commit";;
     git://gerrit.libreoffice.org/*)
         repo=${remote_url#git://gerrit.libreoffice.org/}
-        url="https://gerrit.libreoffice.org/plugins/gitiles/${repo%.git}/+/$commit";;
+        url="https://gerrit.libreoffice.org/plugins/gitiles/$repo/+/$commit";;
     https://git.xiph.org/*)
         repo=${remote_url#https://git.xiph.org/}
-        url="https://git.xiph.org/?p=$repo;a=commitdiff;h=$commit";;
+        url="https://git.xiph.org/?p=$repo.git;a=commitdiff;h=$commit";;
     https://git.samba.org/*)
         repo=${remote_url#https://git.samba.org/}
-        url="https://git.samba.org/?p=$repo;a=commitdiff;h=$commit";;
+        url="https://git.samba.org/?p=$repo.git;a=commitdiff;h=$commit";;
     https://git.ghostscript.com/*)
         repo=${remote_url#https://git.ghostscript.com/}
-        url="https://git.ghostscript.com/?p=$repo;a=commitdiff;h=$commit";;
+        url="https://git.ghostscript.com/?p=$repo.git;a=commitdiff;h=$commit";;
     git://sourceware.org/git/*|https://sourceware.org/git/*)
         repo=${remote_url#*://sourceware.org/git/}
-        url="https://sourceware.org/git/?p=$repo;a=commitdiff;h=$commit";;
+        url="https://sourceware.org/git/?p=$repo.git;a=commitdiff;h=$commit";;
     git://git.shadowcat.co.uk/*)
         repo=${remote_url#git://git.shadowcat.co.uk/}
-        url="http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=$repo;a=commitdiff;h=$commit";;
+        url="http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit";;
     https://scm.gforge.inria.fr/anonscm/git/*)
         repo=${remote_url#https://scm.gforge.inria.fr/anonscm/git/}
-        url="https://scm.gforge.inria.fr/anonscm/gitweb?p=${repo%.git}.git;a=commitdiff;h=$commit";;
+        url="https://scm.gforge.inria.fr/anonscm/gitweb?p=$repo.git;a=commitdiff;h=$commit";;
     https://git.tartarus.org/*)
         repo=${remote_url#https://git.tartarus.org/}
-        url="https://git.tartarus.org/?p=${repo%.git}.git;a=commitdiff;h=$commit";;
+        url="https://git.tartarus.org/?p=$repo.git;a=commitdiff;h=$commit";;
     https://git.apache.org/*)
         repo=${remote_url#https://git.apache.org/}
-        url="https://github.com/apache/${repo%.git}/commit/$commit";;
+        url="https://github.com/apache/$repo/commit/$commit";;
     https://pagure.io/*)
-        url="${remote_url%.git}/c/$commit";;
+        url="$remote_url/c/$commit";;
     https://git.llvm.org/git/*)
         repo=${remote_url#https://git.llvm.org/git/}
-        url="https://git.llvm.org/klaus/${repo%.git}/commit/$commit/";;
+        url="https://git.llvm.org/klaus/$repo/commit/$commit/";;
     https://dev.gnupg.org/source/*)
         repo=${remote_url#https://dev.gnupg.org/source/}
         code=
-        case ${repo%.git} in
+        case $repo in
             lkleo) code=LIBKLEO;;
             gpgme) code=M;;
             gnupg) code=G;;
