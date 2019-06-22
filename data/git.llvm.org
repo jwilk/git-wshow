@@ -1,0 +1,4 @@
+[rules]
+https://git.llvm.org/git/* = https://git.llvm.org/klaus/$repo/commit/$commit/
+
+# vim:ft=dosini

@@ -1,0 +1,4 @@
+[rules]
+https://bitbucket.org/* = https://bitbucket.org/$repo/commits/$commit
+
+# vim:ft=dosini

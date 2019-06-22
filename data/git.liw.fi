@@ -1,0 +1,4 @@
+[rules]
+git://git.liw.fi/* = http://git.liw.fi/$repo/commit/?id=$commit
+
+# vim:ft=dosini

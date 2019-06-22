@@ -1,0 +1,4 @@
+[rules]
+https://git.netfilter.org/* = https://git.netfilter.org/$repo/commit/?id=$commit
+
+# vim:ft=dosini

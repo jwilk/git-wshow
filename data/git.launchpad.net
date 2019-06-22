@@ -1,0 +1,4 @@
+[rules]
+https://git.launchpad.net/* = https://git.launchpad.net/$repo/commit/?id=$commit
+
+# vim:ft=dosini

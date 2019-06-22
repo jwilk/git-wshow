@@ -1,0 +1,4 @@
+[rules]
+https://gitlab.gnome.org/* = https://gitlab.gnome.org/$repo/commit/$commit
+
+# vim:ft=dosini

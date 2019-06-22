@@ -1,0 +1,4 @@
+[rules]
+https://git.linuxtv.org/* = https://git.linuxtv.org/$repo.git/commit/?id=$commit
+
+# vim:ft=dosini

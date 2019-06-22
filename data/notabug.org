@@ -1,0 +1,4 @@
+[rules]
+https://notabug.org/* = https://notabug.org/$repo/commit/$commit
+
+# vim:ft=dosini

@@ -1,0 +1,27 @@
+[rules]
+https://dev.gnupg.org/source/lkleo = https://dev.gnupg.org/rLIBKLEO$commit
+https://dev.gnupg.org/source/gpgme = https://dev.gnupg.org/rM$commit
+https://dev.gnupg.org/source/gnupg = https://dev.gnupg.org/rG$commit
+https://dev.gnupg.org/source/libgpg-error = https://dev.gnupg.org/rE$commit
+https://dev.gnupg.org/source/gpg4win = https://dev.gnupg.org/rW$commit
+https://dev.gnupg.org/source/gnupg-doc = https://dev.gnupg.org/rD$commit
+https://dev.gnupg.org/source/gpgol = https://dev.gnupg.org/rO$commit
+https://dev.gnupg.org/source/libgcrypt = https://dev.gnupg.org/rC$commit
+https://dev.gnupg.org/source/kleo = https://dev.gnupg.org/rKLEOPATRA$commit
+https://dev.gnupg.org/source/pinentry = https://dev.gnupg.org/rP$commit
+https://dev.gnupg.org/source/g4wt = https://dev.gnupg.org/rGTO$commit
+https://dev.gnupg.org/source/libksba = https://dev.gnupg.org/rK$commit
+https://dev.gnupg.org/source/npth = https://dev.gnupg.org/rPTH$commit
+https://dev.gnupg.org/source/gpa = https://dev.gnupg.org/rGPA$commit
+https://dev.gnupg.org/source/Scute = https://dev.gnupg.org/rS$commit
+https://dev.gnupg.org/source/libassuan = https://dev.gnupg.org/rA$commit
+https://dev.gnupg.org/source/ntbtls = https://dev.gnupg.org/rT$commit
+https://dev.gnupg.org/source/gpgex = https://dev.gnupg.org/rX$commit
+https://dev.gnupg.org/source/payproc = https://dev.gnupg.org/rPAY$commit
+https://dev.gnupg.org/source/book = https://dev.gnupg.org/rBOOK$commit
+https://dev.gnupg.org/source/phabricator = https://dev.gnupg.org/rPHAB$commit
+https://dev.gnupg.org/source/libphutil = https://dev.gnupg.org/rPHUTIL$commit
+https://dev.gnupg.org/source/arcanist = https://dev.gnupg.org/rARC$commit
+https://dev.gnupg.org/source/TinySCHEME = https://dev.gnupg.org/rSCM$commit
+
+# vim:ft=dosini

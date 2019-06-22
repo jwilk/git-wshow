@@ -1,0 +1,4 @@
+[rules]
+https://git.apache.org/* = https://github.com/apache/$repo/commit/$commit
+
+# vim:ft=dosini

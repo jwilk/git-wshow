@@ -1,0 +1,5 @@
+[rules]
+git://git.code.sf.net/p/* = https://sourceforge.net/p/$repo/ci/$commit/
+https://git.code.sf.net/p/* = https://sourceforge.net/p/$repo/ci/$commit/
+
+# vim:ft=dosini

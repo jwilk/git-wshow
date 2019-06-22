@@ -1,0 +1,4 @@
+[rules]
+https://git.torproject.org/* = https://gitweb.torproject.org/$repo.git/commit/?id=$commit
+
+# vim:ft=dosini

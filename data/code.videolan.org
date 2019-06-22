@@ -1,0 +1,4 @@
+[rules]
+https://code.videolan.org/* = https://code.videolan.org/$repo/commit/$commit
+
+# vim:ft=dosini

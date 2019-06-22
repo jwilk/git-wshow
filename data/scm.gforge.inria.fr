@@ -1,0 +1,4 @@
+[rules]
+https://scm.gforge.inria.fr/anonscm/git/* = https://scm.gforge.inria.fr/anonscm/gitweb?p=$repo.git;a=commitdiff;h=$commit
+
+# vim:ft=dosini

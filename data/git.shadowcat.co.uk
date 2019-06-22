@@ -1,0 +1,4 @@
+[rules]
+git://git.shadowcat.co.uk/* = http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
+
+# vim:ft=dosini

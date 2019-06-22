@@ -1,0 +1,4 @@
+[rules]
+https://git.samba.org/* = https://git.samba.org/?p=$repo.git;a=commitdiff;h=$commit
+
+# vim:ft=dosini

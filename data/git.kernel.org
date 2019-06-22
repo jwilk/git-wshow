@@ -1,0 +1,4 @@
+[rules]
+https://git.kernel.org/pub/scm/* = https://git.kernel.org/pub/scm/$repo.git/commit/?id=$commit
+
+# vim:ft=dosini

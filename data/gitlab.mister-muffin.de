@@ -1,0 +1,4 @@
+[rules]
+https://gitlab.mister-muffin.de/* = https://gitlab.mister-muffin.de/$repo/commit/$commit
+
+# vim:ft=dosini

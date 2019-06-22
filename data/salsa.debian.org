@@ -1,0 +1,4 @@
+[rules]
+https://salsa.debian.org/* = https://salsa.debian.org/$repo/commit/$commit
+
+# vim:ft=dosini

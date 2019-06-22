@@ -1,0 +1,4 @@
+[rules]
+git://gerrit.libreoffice.org/* = https://gerrit.libreoffice.org/plugins/gitiles/$repo/+/$commit
+
+# vim:ft=dosini

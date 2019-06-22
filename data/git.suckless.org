@@ -1,0 +1,4 @@
+[rules]
+git://git.suckless.org/* = https://git.suckless.org/$repo/commit/$commit.html
+
+# vim:ft=dosini

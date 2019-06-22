@@ -1,0 +1,4 @@
+[rules]
+https://git.xiph.org/* = https://git.xiph.org/?p=$repo.git;a=commitdiff;h=$commit
+
+# vim:ft=dosini

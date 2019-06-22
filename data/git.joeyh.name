@@ -1,0 +1,4 @@
+[rules]
+https://git.joeyh.name/git/* = https://git.joeyh.name/index.cgi/$repo.git/commit/?id=$commit
+
+# vim:ft=dosini

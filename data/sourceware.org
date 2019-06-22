@@ -1,0 +1,5 @@
+[rules]
+git://sourceware.org/git/* = https://sourceware.org/git/?p=$repo.git;a=commitdiff;h=$commit
+https://sourceware.org/git/* = https://sourceware.org/git/?p=$repo.git;a=commitdiff;h=$commit
+
+# vim:ft=dosini

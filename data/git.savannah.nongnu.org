@@ -1,0 +1,4 @@
+[rules]
+https://git.savannah.nongnu.org/git/* = https://git.savannah.nongnu.org/cgit/$repo.git/commit/?id=$commit
+
+# vim:ft=dosini

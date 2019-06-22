@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# Copyright © 2019 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
+usage()
+{
+    printf 'Usage:\n  %s [-r REMOTE] COMMIT\n' "$prog"
+}
+
+set -e -u -C
+prog="${0##*/}"
+remote=origin
+while getopts 'hr:' opt
+do
+    case "$opt" in
+        h) usage; exit 0;;
+        r) remote="$OPTARG";;
+        *) exit 1;;
+    esac
+done
+shift $((OPTIND - 1))
+[ $# -gt 0 ] || set -- HEAD
+if [ $# -ne 1 ]
+then
+    usage >&2
+    exit 1
+fi
+commit=$(git rev-parse "$@")
+remote_url=$(git remote get-url "$remote")
+remote_url=${remote_url%/}
+remote_url=${remote_url%.git}
+url=
+# BEGIN GENERATED CODE
+# END GENERATED CODE
+if [ -z "$url" ]
+then
+    printf '%s: unsupported remote URL %s\n' "$prog" "$remote_url"
+    exit 1
+fi
+for browser in sensible-browser xdg-open
+do
+    command -v "$browser" > /dev/null && break
+done
+exec "$browser" "$url"
+
+# vim:ts=4 sts=4 sw=4 et

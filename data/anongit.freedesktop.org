@@ -1,0 +1,4 @@
+[rules]
+https://anongit.freedesktop.org/git/* = https://cgit.freedesktop.org/$repo/commit/?id=$commit
+
+# vim:ft=dosini
