@@ -1,0 +1,7 @@
+[rules]
+https://git.pwmt.org/* = https://git.pwmt.org/$repo/commit/$commit
+
+[tests]
+https://git.pwmt.org/pwmt/girara = https://git.pwmt.org/pwmt/girara/commit/07e88ec583b32d71ea03463c56f9ceffc2be9769
+
+# vim:ft=dosini
