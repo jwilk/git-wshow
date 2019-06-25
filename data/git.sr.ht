@@ -1,0 +1,7 @@
+[rules]
+https://git.sr.ht/* = https://git.sr.ht/$repo/commit/$commit
+
+[tests]
+https://git.sr.ht/~sircmpwn/scdoc = https://git.sr.ht/~sircmpwn/scdoc/commit/599f968c0110b8eebe94e7019359e966fc7a53bb
+
+# vim:ft=dosini
