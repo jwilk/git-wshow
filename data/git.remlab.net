@@ -1,0 +1,7 @@
+[rules]
+http://git.remlab.net/git/* = http://git.remlab.net/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+http://git.remlab.net/git/miredo.git = http://git.remlab.net/gitweb/?p=miredo.git;a=commitdiff;h=5db176c6aae10fe3d743738244c82f0b52f80cd7
+
+# vim:ft=dosini
