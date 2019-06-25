@@ -11,6 +11,11 @@ git-wshow: git-wshow.in devel/generate-code $(wildcard data/*)
 	chmod +x git-wshow.tmp
 	mv git-wshow.tmp git-wshow
 
+.PHONY: test
+test: only =
+test: git-wshow
+	prove -v :: $(only)
+
 .PHONY: clean
 clean:
 	rm -f git-wshow *.tmp

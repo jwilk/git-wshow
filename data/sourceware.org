@@ -2,4 +2,8 @@
 git://sourceware.org/git/* = https://sourceware.org/git/?p=$repo.git;a=commitdiff;h=$commit
 https://sourceware.org/git/* = https://sourceware.org/git/?p=$repo.git;a=commitdiff;h=$commit
 
+[tests]
+https://sourceware.org/git/annobin.git = https://sourceware.org/git/?p=annobin.git;a=commitdiff;h=8abf92a13297769fb99e83582100c5d58561134c
+git://sourceware.org/git/annobin.git = https://sourceware.org/git/?p=annobin.git;a=commitdiff;h=8abf92a13297769fb99e83582100c5d58561134c
+
 # vim:ft=dosini

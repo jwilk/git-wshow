@@ -1,4 +1,7 @@
 [rules]
 https://git.torproject.org/* = https://gitweb.torproject.org/$repo.git/commit/?id=$commit
 
+[tests]
+https://git.torproject.org/flashproxy.git = https://gitweb.torproject.org/flashproxy.git/commit/?id=2fba5623598abf39c5e53693168d731ee6cf9d59
+
 # vim:ft=dosini

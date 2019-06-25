@@ -1,4 +1,7 @@
 [rules]
 git://gerrit.libreoffice.org/* = https://gerrit.libreoffice.org/plugins/gitiles/$repo/+/$commit
 
+[tests]
+git://gerrit.libreoffice.org/libabw = https://gerrit.libreoffice.org/plugins/gitiles/libabw/+/128122a437af273152d6d81a0c70efe03b9fe7a4
+
 # vim:ft=dosini

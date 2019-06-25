@@ -1,4 +1,7 @@
 [rules]
 https://git.joeyh.name/git/* = https://git.joeyh.name/index.cgi/$repo.git/commit/?id=$commit
 
+[tests]
+https://git.joeyh.name/git/filters.git = https://git.joeyh.name/index.cgi/filters.git/commit/?id=5834c3c795d4d16820daa52a8dcccfec71a33fa6
+
 # vim:ft=dosini

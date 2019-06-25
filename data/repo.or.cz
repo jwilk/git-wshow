@@ -1,4 +1,7 @@
 [rules]
 https://repo.or.cz/* = https://repo.or.cz/$repo.git/commitdiff/$commit
 
+[tests]
+https://repo.or.cz/iotop.git = https://repo.or.cz/iotop.git/commitdiff/10c60fedf5051421f4e62b89e2e51e7cc669ce34
+
 # vim:ft=dosini

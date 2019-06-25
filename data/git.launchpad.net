@@ -1,4 +1,7 @@
 [rules]
 https://git.launchpad.net/* = https://git.launchpad.net/$repo/commit/?id=$commit
 
+[tests]
+https://git.launchpad.net/fatrace = https://git.launchpad.net/fatrace/commit/?id=e69571287b680c523a4e96cff071b711db7f6ef0
+
 # vim:ft=dosini

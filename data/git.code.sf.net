@@ -2,4 +2,8 @@
 git://git.code.sf.net/p/* = https://sourceforge.net/p/$repo/ci/$commit/
 https://git.code.sf.net/p/* = https://sourceforge.net/p/$repo/ci/$commit/
 
+[tests]
+git://git.code.sf.net/p/esmtp/code = https://sourceforge.net/p/esmtp/code/ci/6a3abcb7a2f121d32b6ead9369e31c9a21534cf6/
+https://git.code.sf.net/p/esmtp/code = https://sourceforge.net/p/esmtp/code/ci/6a3abcb7a2f121d32b6ead9369e31c9a21534cf6/
+
 # vim:ft=dosini

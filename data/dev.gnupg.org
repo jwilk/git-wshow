@@ -24,4 +24,30 @@ https://dev.gnupg.org/source/payproc = https://dev.gnupg.org/rPAY$commit
 https://dev.gnupg.org/source/phabricator = https://dev.gnupg.org/rPHAB$commit
 https://dev.gnupg.org/source/pinentry = https://dev.gnupg.org/rP$commit
 
+[tests]
+https://dev.gnupg.org/source/Scute = https://dev.gnupg.org/rS1a5ed264ff71ba2e909f52b4dd73b7a8ca0c7070
+https://dev.gnupg.org/source/TinySCHEME = (TODO)
+https://dev.gnupg.org/source/arcanist = https://dev.gnupg.org/rARC209ffba8c06c140622cf08b6676f5dca4d1ab976
+https://dev.gnupg.org/source/book = https://dev.gnupg.org/rBOOK6f5441ed3c0bf94b8eb9a6405cb9d3feb642a298
+https://dev.gnupg.org/source/g4wt = https://dev.gnupg.org/rGTOc7189c1d5b75329cd73ed40e93d9c70dd59ee5c3
+https://dev.gnupg.org/source/gnupg = https://dev.gnupg.org/rGdc93e57226db32d5b90884dcf768d271baa6628a
+https://dev.gnupg.org/source/gnupg-doc = https://dev.gnupg.org/rD69cdc11cda9b788c112a72269ceee5aa3d5149ae
+https://dev.gnupg.org/source/gpa = https://dev.gnupg.org/rGPAbb097c7b8bb067b6b5dfca1cc62f508845979f54
+https://dev.gnupg.org/source/gpg4win = https://dev.gnupg.org/rWd1a7ca67fe39b42ed4c7d26dafd5b0abb4cc7e7d
+https://dev.gnupg.org/source/gpgex = https://dev.gnupg.org/rX5baafc20c8900d515fd73cc94a33f5c156251c09
+https://dev.gnupg.org/source/gpgme = https://dev.gnupg.org/rMea11c2a13cd44caf0bab395bd5132bf232318ad8
+https://dev.gnupg.org/source/gpgol = https://dev.gnupg.org/rOcf1f686d98bdf08f408cac99dfc661abcf8b80c0
+https://dev.gnupg.org/source/kleo = https://dev.gnupg.org/rKLEOPATRA075a7808c3185626de8438a853e587f47eebd607
+https://dev.gnupg.org/source/libassuan = https://dev.gnupg.org/rA4de3154ea6e6e89e34760b7b9e0eed5123bb81f9
+https://dev.gnupg.org/source/libgcrypt = https://dev.gnupg.org/rC93775172713c00c363187b5d6a88895b04ac7c8e
+https://dev.gnupg.org/source/libgpg-error = https://dev.gnupg.org/rE85f427fd28ae5947277ba02dffc83c53d9da2591
+https://dev.gnupg.org/source/libksba = https://dev.gnupg.org/rK25cc42cf61a56e01f1bd72883e452f691dda8309
+https://dev.gnupg.org/source/libphutil = https://dev.gnupg.org/rPHUTIL844199c0bcb9b4a4c2a5bb9f318735711f603f42
+https://dev.gnupg.org/source/lkleo = https://dev.gnupg.org/rLIBKLEO1d738b16816a325fad5f014f6747dae89ae1796b
+https://dev.gnupg.org/source/npth = https://dev.gnupg.org/rPTH771287929ed226add3ef27de882c5359dcd3f66e
+https://dev.gnupg.org/source/ntbtls = https://dev.gnupg.org/rTa68e81e9daead32d1cddcbddc3455aeff298019a
+https://dev.gnupg.org/source/payproc = https://dev.gnupg.org/rPAY062dffde32b92f845bb11ea0316d7356c387d965
+https://dev.gnupg.org/source/phabricator = https://dev.gnupg.org/rPHABd6450bf7d255fcd201fe66edf9fcb5e2c3b18e60
+https://dev.gnupg.org/source/pinentry = https://dev.gnupg.org/rP02df3d26b986c8f2850eeba47efcb3aca9d5dbcb
+
 # vim:ft=dosini

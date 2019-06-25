@@ -1,4 +1,7 @@
 [rules]
 https://git.apache.org/* = https://github.com/apache/$repo/commit/$commit
 
+[tests]
+https://git.apache.org/apr-iconv.git = https://github.com/apache/apr-iconv/commit/97259701c25956750ad93147a27fc64117431873
+
 # vim:ft=dosini

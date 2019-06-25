@@ -1,4 +1,7 @@
 [rules]
 https://git.linuxtv.org/* = https://git.linuxtv.org/$repo.git/commit/?id=$commit
 
+[tests]
+https://git.linuxtv.org/xawtv4.git = https://git.linuxtv.org/xawtv4.git/commit/?id=dc6be1b9518fee1866526db326e0d0fde65e80b2
+
 # vim:ft=dosini

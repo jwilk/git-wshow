@@ -1,4 +1,7 @@
 [rules]
 https://gitlab.gnome.org/* = https://gitlab.gnome.org/$repo/commit/$commit
 
+[tests]
+https://gitlab.gnome.org/GNOME/libgudev.git = https://gitlab.gnome.org/GNOME/libgudev/commit/72c558e15434876980cd4e618e64de3f1d53a430
+
 # vim:ft=dosini

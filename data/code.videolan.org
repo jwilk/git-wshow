@@ -1,4 +1,7 @@
 [rules]
 https://code.videolan.org/* = https://code.videolan.org/$repo/commit/$commit
 
+[tests]
+https://code.videolan.org/videolan/libdvdread.git = https://code.videolan.org/videolan/libdvdread/commit/2e59c5524a0b189fb4578df92c7f8942ed7afaa0
+
 # vim:ft=dosini

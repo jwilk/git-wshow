@@ -1,4 +1,7 @@
 [rules]
 git://git.shadowcat.co.uk/* = http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
 
+[tests]
+git://git.shadowcat.co.uk/p5sagit/Import-Into.git = http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=p5sagit/Import-Into.git;a=commitdiff;h=3f42f43645344517a2fa40aa3ef3ac4291e83048
+
 # vim:ft=dosini

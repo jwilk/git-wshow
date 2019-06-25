@@ -1,4 +1,7 @@
 [rules]
 https://salsa.debian.org/* = https://salsa.debian.org/$repo/commit/$commit
 
+[tests]
+https://salsa.debian.org/apt-team/apt-transport-tor.git = https://salsa.debian.org/apt-team/apt-transport-tor/commit/9b9c3c0e2f9b68cf13af1e433e7fc26b4f498925
+
 # vim:ft=dosini

@@ -1,4 +1,7 @@
 [rules]
 https://git.tartarus.org/* = https://git.tartarus.org/?p=$repo.git;a=commitdiff;h=$commit
 
+[tests]
+https://git.tartarus.org/simon/agedu.git = https://git.tartarus.org/?p=simon/agedu.git;a=commitdiff;h=80c7beb423ce1f2e4de880fcdab58b2d0df68539
+
 # vim:ft=dosini

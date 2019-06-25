@@ -1,4 +1,7 @@
 [rules]
 https://bitbucket.org/* = https://bitbucket.org/$repo/commits/$commit
 
+[tests]
+https://bitbucket.org/tagoh/liblangtag = https://bitbucket.org/tagoh/liblangtag/commits/052b6503567c626625849215db5f352ff7133a3b
+
 # vim:ft=dosini

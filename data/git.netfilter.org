@@ -1,4 +1,7 @@
 [rules]
 https://git.netfilter.org/* = https://git.netfilter.org/$repo/commit/?id=$commit
 
+[tests]
+https://git.netfilter.org/arptables = https://git.netfilter.org/arptables/commit/?id=6db62a995e5ff6905e6b1e47e07d4411af0546f7
+
 # vim:ft=dosini

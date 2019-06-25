@@ -1,4 +1,7 @@
 [rules]
 https://git.samba.org/* = https://git.samba.org/?p=$repo.git;a=commitdiff;h=$commit
 
+[tests]
+https://git.samba.org/resolv_wrapper.git = https://git.samba.org/?p=resolv_wrapper.git;a=commitdiff;h=6231c7d2b0cfb3090ed0f023e6d3aa45d12c8353
+
 # vim:ft=dosini

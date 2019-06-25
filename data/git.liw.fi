@@ -1,4 +1,7 @@
 [rules]
 git://git.liw.fi/* = http://git.liw.fi/$repo/commit/?id=$commit
 
+[tests]
+git://git.liw.fi/cliapp = http://git.liw.fi/cliapp/commit/?id=e5c6fb926c9b0b6a571ad5f0d8e0c3846070e769
+
 # vim:ft=dosini

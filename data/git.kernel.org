@@ -1,4 +1,7 @@
 [rules]
 https://git.kernel.org/pub/scm/* = https://git.kernel.org/pub/scm/$repo.git/commit/?id=$commit
 
+[tests]
+https://git.kernel.org/pub/scm/libs/ieee1394/libraw1394.git = https://git.kernel.org/pub/scm/libs/ieee1394/libraw1394.git/commit/?id=b83252bf66f713598deff2f73da255dc2a22af14
+
 # vim:ft=dosini

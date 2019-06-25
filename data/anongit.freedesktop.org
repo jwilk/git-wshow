@@ -1,4 +1,7 @@
 [rules]
 https://anongit.freedesktop.org/git/* = https://cgit.freedesktop.org/$repo/commit/?id=$commit
 
+[tests]
+https://anongit.freedesktop.org/git/xcb/pthread-stubs.git = https://cgit.freedesktop.org/xcb/pthread-stubs/commit/?id=8c16f321fbe9e44a4452f624dc43fac7d0a7f45a
+
 # vim:ft=dosini

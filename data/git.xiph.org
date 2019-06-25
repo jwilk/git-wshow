@@ -1,4 +1,7 @@
 [rules]
 https://git.xiph.org/* = https://git.xiph.org/?p=$repo.git;a=commitdiff;h=$commit
 
+[tests]
+https://git.xiph.org/libao.git = https://git.xiph.org/?p=libao.git;a=commitdiff;h=e860ffe37eb7c8b9459510a41a6b8294ada1d344
+
 # vim:ft=dosini

@@ -1,4 +1,7 @@
 [rules]
 git://git.suckless.org/* = https://git.suckless.org/$repo/commit/$commit.html
 
+[tests]
+git://git.suckless.org/swarp = https://git.suckless.org/swarp/commit/c0077fcc5cf2c77d3415de3ecb6c9f187ebc6c09.html
+
 # vim:ft=dosini

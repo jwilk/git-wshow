@@ -1,4 +1,7 @@
 [rules]
 https://notabug.org/* = https://notabug.org/$repo/commit/$commit
 
+[tests]
+https://notabug.org/kl3/spm = https://notabug.org/kl3/spm/commit/2ac8d1947dab3f545fe42d910681dd0253cb79a3
+
 # vim:ft=dosini

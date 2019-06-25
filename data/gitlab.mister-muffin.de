@@ -1,4 +1,7 @@
 [rules]
 https://gitlab.mister-muffin.de/* = https://gitlab.mister-muffin.de/$repo/commit/$commit
 
+[tests]
+https://gitlab.mister-muffin.de/josch/mmdebstrap.git = https://gitlab.mister-muffin.de/josch/mmdebstrap/commit/6d774a3d92ed7b584a2021d3485b30280498080c
+
 # vim:ft=dosini

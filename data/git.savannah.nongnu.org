@@ -1,4 +1,7 @@
 [rules]
 https://git.savannah.nongnu.org/git/* = https://git.savannah.nongnu.org/cgit/$repo.git/commit/?id=$commit
 
+[tests]
+https://git.savannah.nongnu.org/git/attr.git = https://git.savannah.nongnu.org/cgit/attr.git/commit/?id=cfd8e6ef491a7a5ff900ba2ba3deff7d0bebb0a6
+
 # vim:ft=dosini
