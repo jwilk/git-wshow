@@ -123,7 +123,7 @@ while (my ($repo, $url) = each %tests) {
             local $ENV{http_proxy} = local $ENV{https_proxy} = 'http://127.0.0.1:9';  # paranoia
             local $ENV{DISPLAY} = '';  # more paranoia
             local $ENV{PATH} = "$basedir:$ENV{PATH}";
-            $actual_url = capture(@gitcmd, 'wshow', 'HEAD');
+            $actual_url = capture(@gitcmd, 'wshow', $fake_commit);
         }
         chomp $actual_url;
         cmp_ok($actual_url, 'eq', $url, "URL for $repo");
