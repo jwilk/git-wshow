@@ -1,0 +1,7 @@
+[rules]
+https://git.ffmpeg.org/* = https://git.ffmpeg.org/gitweb/$repo.git/commitdiff/$commit
+
+[tests]
+https://git.ffmpeg.org/rtmpdump = https://git.ffmpeg.org/gitweb/rtmpdump.git/commitdiff/c5f04a58fc2aeea6296ca7c44ee4734c18401aa3
+
+# vim:ft=dosini
