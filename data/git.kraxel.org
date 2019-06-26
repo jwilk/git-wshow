@@ -1,0 +1,7 @@
+[rules]
+git://git.kraxel.org/* = https://git.kraxel.org/cgit/$repo/commit/?id=$commit
+
+[tests]
+git://git.kraxel.org/fbida = https://git.kraxel.org/cgit/fbida/commit/?id=e40d809dadb7998bf2413394a4e2e7c946eb9f6f
+
+# vim:ft=dosini
