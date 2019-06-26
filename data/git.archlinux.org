@@ -1,0 +1,7 @@
+[rules]
+https://git.archlinux.org/* = https://git.archlinux.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.archlinux.org/svntogit/packages.git = https://git.archlinux.org/svntogit/packages.git/commit/?id=e6c66428368839b2c220092db2d702b0a0669339
+
+# vim:ft=dosini
