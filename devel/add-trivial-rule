@@ -17,7 +17,7 @@ use FindBin ();
 use IO::File;
 
 if ((scalar @ARGV) != 2) {
-    say {*STDERR} "Usage: $0 REPO-URL COMMIT-URL";
+    say {*STDERR} "Usage: $PROGRAM_NAME REPO-URL COMMIT-URL";
     exit 1;
 }
 
@@ -41,7 +41,7 @@ $commit_url_template =~ s{\b[0-9a-f]{40}\b}{\$commit}
     or die "commit URL <$commit_url> doesn't commit hash";
 
 my $path = "$basedir/data/$domain";
-my $fh = IO::File->new($path, O_WRONLY | O_CREAT | O_EXCL) or die "$path: $!";
+my $fh = IO::File->new($path, O_WRONLY | O_CREAT | O_EXCL) or die "$path: $ERRNO";
 print {$fh} <<"EOF" ;
 [rules]
 $root_url* = $commit_url_template
