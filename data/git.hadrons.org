@@ -1,0 +1,7 @@
+[rules]
+https://git.hadrons.org/* = https://git.hadrons.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.hadrons.org/git/libmd.git = https://git.hadrons.org/git/libmd.git/commit/?id=9c330aa8e5085c57249550c0596154ac0e3ab0f4
+
+# vim:ft=dosini
