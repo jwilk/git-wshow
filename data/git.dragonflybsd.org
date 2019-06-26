@@ -1,0 +1,7 @@
+[rules]
+git://git.dragonflybsd.org/* = https://gitweb.dragonflybsd.org/$repo.git/commitdiff/$commit
+
+[tests]
+git://git.dragonflybsd.org/dragonfly.git = https://gitweb.dragonflybsd.org/dragonfly.git/commitdiff/f5c60ff5513d39f8147a6078ff6bf5e208be53ca
+
+# vim:ft=dosini
