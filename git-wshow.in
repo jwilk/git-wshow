@@ -38,6 +38,10 @@ then
     printf '%s: unsupported remote URL %s\n' "$prog" "$remote_url"
     exit 1
 fi
+if [ "${BROWSER-}" = echo ]
+then
+    exec echo "$url"
+fi
 for browser in sensible-browser xdg-open
 do
     command -v "$browser" > /dev/null && break
