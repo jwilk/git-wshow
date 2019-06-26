@@ -8,6 +8,16 @@ usage()
     printf 'Usage:\n  %s [-r REMOTE] COMMIT\n' "$prog"
 }
 
+is_sha1()
+{
+    case $1 in
+        [0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f])
+            return 0;;
+        *)
+            return 1;;
+    esac
+}
+
 set -e -u -C
 prog="${0##*/}"
 remote=origin
@@ -26,7 +36,13 @@ then
     usage >&2
     exit 1
 fi
-commit=$(git rev-parse "$@")
+revision="$1"
+if LC_ALL=C is_sha1 "$revision"
+then
+    commit="$revision"
+else
+    commit=$(git rev-parse "$revision")
+fi
 remote_url=$(git remote get-url "$remote")
 remote_url=${remote_url%/}
 remote_url=${remote_url%.git}
