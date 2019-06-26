@@ -1,0 +1,7 @@
+[rules]
+https://anongit.gentoo.org/git/* = https://gitweb.gentoo.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://anongit.gentoo.org/git/proj/pax-utils.git = https://gitweb.gentoo.org/proj/pax-utils.git/commit/?id=519f07f7f3bdb29382a0f1491f6fce0a07bbc4fc
+
+# vim:ft=dosini
