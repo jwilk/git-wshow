@@ -11,6 +11,7 @@ use warnings;
 use English qw(-no_match_vars);
 use File::Temp ();
 use FindBin ();
+use Cwd ();
 
 use autodie qw(open close symlink);
 
