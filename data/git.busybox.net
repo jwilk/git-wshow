@@ -1,0 +1,7 @@
+[rules]
+https://git.busybox.net/* = https://git.busybox.net/$repo/commit/?id=$commit
+
+[tests]
+https://git.busybox.net/uClibc = https://git.busybox.net/uClibc/commit/?id=ca1c74d67dd115d059a875150e10b8560a9c35a8
+
+# vim:ft=dosini
