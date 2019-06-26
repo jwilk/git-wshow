@@ -1,0 +1,7 @@
+[rules]
+git://git.alsa-project.org/* = https://git.alsa-project.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.alsa-project.org/alsa-utils.git = https://git.alsa-project.org/?p=alsa-utils.git;a=commitdiff;h=3aea4fedf96c55c742f2b319b540b1bf8e7341bb
+
+# vim:ft=dosini
