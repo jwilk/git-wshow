@@ -1,0 +1,54 @@
+#!/usr/bin/env perl
+
+# Copyright © 2019 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
+no lib '.';  # CVE-2016-1238
+
+use v5.10;
+
+use strict;
+use warnings;
+
+use Cwd ();
+use English qw(-no_match_vars);
+use File::Spec ();
+use FindBin ();
+use IO::File;
+
+if ((scalar @ARGV) != 2) {
+    say {*STDERR} "Usage: $0 REPO-URL COMMIT-URL";
+    exit 1;
+}
+
+my $basedir = "$FindBin::Bin/..";
+$basedir = Cwd::realpath($basedir);
+$basedir = File::Spec->abs2rel($basedir);
+
+my ($repo_url, $commit_url) = @ARGV;
+my ($root_url, $domain, $repo) = ($repo_url =~ m{(\A\w+://([^/]+)/)(.+)});
+$repo =~ s{/$}{};
+$repo =~ s{[.]git$}{};
+while (defined $repo and not $commit_url =~ m{\b\Q$repo\E\b}) {
+    (my $comp, $repo) = split('/', $repo, 2);
+    $root_url .= "$comp/";
+}
+defined $repo
+    or die "commit URL <$commit_url> doesn't contain repository name";
+my $commit_url_template = $commit_url;
+$commit_url_template =~ s{\b\Q$repo\E\b}{\$repo} or die;
+$commit_url_template =~ s{\b[0-9a-f]{40}\b}{\$commit}
+    or die "commit URL <$commit_url> doesn't commit hash";
+
+my $path = "$basedir/data/$domain";
+my $fh = IO::File->new($path, O_WRONLY | O_CREAT | O_EXCL) or die "$path: $!";
+print {$fh} <<"EOF" ;
+[rules]
+$root_url* = $commit_url_template
+
+[tests]
+$repo_url = $commit_url
+EOF
+say {$fh} "\n# v" . 'im:ft=dosini'
+
+# vim:ts=4 sts=4 sw=4 et
