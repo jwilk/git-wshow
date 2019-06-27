@@ -29,16 +29,18 @@ my ($repo_url, $commit_url) = @ARGV;
 my ($root_url, $domain, $repo) = ($repo_url =~ m{(\A\w+://([^/]+)/)(.+)});
 $repo =~ s{/$}{};
 $repo =~ s{[.]git$}{};
-while (defined $repo and not $commit_url =~ m{\b\Q$repo\E\b}) {
+my ($commit_url_head, $commit_url_tail) = $commit_url =~ m{(\A\w+://[^/]+/)(.+)};
+while (defined $repo and not $commit_url_tail =~ m{\b\Q$repo\E\b}) {
     (my $comp, $repo) = split('/', $repo, 2);
     $root_url .= "$comp/";
 }
 defined $repo
     or die "commit URL <$commit_url> doesn't contain repository name";
-my $commit_url_template = $commit_url;
+my $commit_url_template = $commit_url_tail;
 $commit_url_template =~ s{\b\Q$repo\E\b}{\$repo} or die;
 $commit_url_template =~ s{\b[0-9a-f]{40}\b}{\$commit}
     or die "commit URL <$commit_url> doesn't commit hash";
+$commit_url_template = "$commit_url_head$commit_url_template";
 
 my $path = "$basedir/data/$domain";
 my $fh = IO::File->new($path, O_WRONLY | O_CREAT | O_EXCL) or die "$path: $ERRNO";
