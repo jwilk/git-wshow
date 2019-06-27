@@ -1,0 +1,7 @@
+[rules]
+https://git.ipxe.org/* = https://git.ipxe.org/$repo.git/commitdiff/$commit
+
+[tests]
+https://git.ipxe.org/ipxe.git = https://git.ipxe.org/ipxe.git/commitdiff/1cdf56f75157d5f4dcfb98dee7b1ba60cd6b93c1
+
+# vim:ft=dosini
