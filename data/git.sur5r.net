@@ -1,0 +1,7 @@
+[rules]
+https://git.sur5r.net/* = https://git.sur5r.net/?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+https://git.sur5r.net/sysbacklight = https://git.sur5r.net/?p=sysbacklight;a=commitdiff;h=fd65256b6821338ce8dcef93c38cc50fd7882cc7
+
+# vim:ft=dosini
