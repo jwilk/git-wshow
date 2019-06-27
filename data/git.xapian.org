@@ -1,0 +1,7 @@
+[rules]
+https://git.xapian.org/* = https://git.xapian.org/?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+https://git.xapian.org/xapian = https://git.xapian.org/?p=xapian;a=commitdiff;h=a3c8fa052a43cecf14a20cd0671d87364e67eebf
+
+# vim:ft=dosini
