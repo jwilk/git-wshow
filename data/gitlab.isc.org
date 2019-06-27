@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.isc.org/* = https://gitlab.isc.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.isc.org/isc-projects/bind9.git = https://gitlab.isc.org/isc-projects/bind9/commit/cc1292d694e468beddf8e483c7e1a74ce607a735
+
+# vim:ft=dosini
