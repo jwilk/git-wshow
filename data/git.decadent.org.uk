@@ -1,0 +1,7 @@
+[rules]
+https://git.decadent.org.uk/git/* = https://git.decadent.org.uk/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.decadent.org.uk/git/nfs-utils.git = https://git.decadent.org.uk/gitweb/?p=nfs-utils.git;a=commitdiff;h=52a7a44f95fab091becece32a6995a409fd59fd1
+
+# vim:ft=dosini
