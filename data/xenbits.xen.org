@@ -1,0 +1,7 @@
+[rules]
+https://xenbits.xen.org/git-http/* = https://xenbits.xen.org/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://xenbits.xen.org/git-http/xen.git = https://xenbits.xen.org/gitweb/?p=xen.git;a=commitdiff;h=85fd4f7a09d8aaa783932b8c15b80ddaff0a174d
+
+# vim:ft=dosini
