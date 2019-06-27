@@ -1,0 +1,7 @@
+[rules]
+https://blitiri.com.ar/repos/* = https://blitiri.com.ar/git/r/$repo/c/$commit/
+
+[tests]
+https://blitiri.com.ar/repos/libfiu = https://blitiri.com.ar/git/r/libfiu/c/38784620e5e873cf08579b8f76df227c84751459/
+
+# vim:ft=dosini
