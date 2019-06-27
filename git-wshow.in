@@ -44,6 +44,7 @@ else
     commit=$(git rev-parse "$revision")
 fi
 remote_url=$(git remote get-url "$remote")
+remote_url=${remote_url%/.git}
 remote_url=${remote_url%/}
 remote_url=${remote_url%.git}
 url=
