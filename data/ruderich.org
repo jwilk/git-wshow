@@ -1,0 +1,7 @@
+[rules]
+https://ruderich.org/simon/* = https://ruderich.org/simon/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://ruderich.org/simon/blhc/blhc.git = https://ruderich.org/simon/gitweb/?p=blhc/blhc.git;a=commitdiff;h=5a6704713eef81b462bea15707af8e941c355bc4
+
+# vim:ft=dosini
