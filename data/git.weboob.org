@@ -1,0 +1,7 @@
+[rules]
+https://git.weboob.org/* = https://git.weboob.org/$repo/commit/$commit
+
+[tests]
+https://git.weboob.org/weboob/weboob.git = https://git.weboob.org/weboob/weboob/commit/ef1f8e24ab9acc8422310543a2060652d8a606d7
+
+# vim:ft=dosini
