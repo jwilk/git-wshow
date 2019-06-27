@@ -1,0 +1,7 @@
+[rules]
+https://git.tukaani.org/* = https://git.tukaani.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.tukaani.org/xz.git = https://git.tukaani.org/?p=xz.git;a=commitdiff;h=b525b0c0ef40cd89b69294c9b8d57f4a8db58e1f
+
+# vim:ft=dosini
