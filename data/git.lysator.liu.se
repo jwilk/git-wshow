@@ -1,0 +1,7 @@
+[rules]
+https://git.lysator.liu.se/* = https://git.lysator.liu.se/$repo/commit/$commit
+
+[tests]
+https://git.lysator.liu.se/nettle/nettle.git = https://git.lysator.liu.se/nettle/nettle/commit/ee5d62898cf070f08beedc410a8d7c418588bd95
+
+# vim:ft=dosini
