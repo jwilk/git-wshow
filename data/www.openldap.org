@@ -1,0 +1,7 @@
+[rules]
+https://www.openldap.org/software/repo/* = https://www.openldap.org/devel/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://www.openldap.org/software/repo/openldap.git = https://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=commitdiff;h=403c01b5e6c563e56c529338d28bdf713d2656a6
+
+# vim:ft=dosini
