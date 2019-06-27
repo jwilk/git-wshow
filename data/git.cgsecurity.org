@@ -1,0 +1,7 @@
+[rules]
+https://git.cgsecurity.org/* = https://git.cgsecurity.org/cgit/$repo/commit/?id=$commit
+
+[tests]
+https://git.cgsecurity.org/testdisk.git = https://git.cgsecurity.org/cgit/testdisk/commit/?id=ede2a1beb88f876b3cb4d093770c8ae510633ae8
+
+# vim:ft=dosini
