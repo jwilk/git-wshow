@@ -1,0 +1,7 @@
+[rules]
+https://git.dereenigne.org/* = https://git.dereenigne.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.dereenigne.org/dbrtpi.git = https://git.dereenigne.org/dbrtpi.git/commit/?id=064fb63a77d545b43ea7dc07624dc73b06f5dc5d
+
+# vim:ft=dosini
