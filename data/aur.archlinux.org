@@ -1,0 +1,7 @@
+[rules]
+https://aur.archlinux.org/* = https://aur.archlinux.org/cgit/aur.git/commit/?h=$repo&id=$commit
+
+[tests]
+https://aur.archlinux.org/yay.git/ = https://aur.archlinux.org/cgit/aur.git/commit/?h=yay&id=5475032cf53565edba44834b6af4165833cd687d
+
+# vim:ft=dosini
