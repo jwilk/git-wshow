@@ -1,0 +1,7 @@
+[rules]
+https://git.openstack.org/* = https://opendev.org/$repo/commit/$commit
+
+[tests]
+https://git.openstack.org/openstack/pbr = https://opendev.org/openstack/pbr/commit/c715db6df9d47b56cd31a3c65f934d1d220563bb
+
+# vim:ft=dosini
