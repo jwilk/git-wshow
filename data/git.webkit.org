@@ -1,0 +1,7 @@
+[rules]
+https://git.webkit.org/git/* = https://git.webkit.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.webkit.org/git/WebKit.git = https://git.webkit.org/?p=WebKit.git;a=commitdiff;h=7e90dd316c41866df13ebca9df238e503be77d73
+
+# vim:ft=dosini
