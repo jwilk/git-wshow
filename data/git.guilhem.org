@@ -1,0 +1,7 @@
+[rules]
+https://git.guilhem.org/* = https://git.guilhem.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.guilhem.org/lacme = https://git.guilhem.org/lacme/commit/?id=d3df555699c7189503de7f49c6c48d6d04b84083
+
+# vim:ft=dosini
