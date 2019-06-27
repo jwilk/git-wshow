@@ -1,0 +1,7 @@
+[rules]
+https://edugit.org/* = https://edugit.org/$repo/commit/$commit
+
+[tests]
+https://edugit.org/nik/itsallghosts.git = https://edugit.org/nik/itsallghosts/commit/a6dffd1acc23809b2f5af83e9c89af738e9d9b4a
+
+# vim:ft=dosini
