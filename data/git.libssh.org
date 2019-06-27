@@ -1,0 +1,7 @@
+[rules]
+https://git.libssh.org/* = https://git.libssh.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.libssh.org/projects/libssh.git = https://git.libssh.org/projects/libssh.git/commit/?id=da50b12051fba3c4099afb6b086315643e6131b2
+
+# vim:ft=dosini
