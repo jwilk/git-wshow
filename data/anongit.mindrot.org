@@ -1,0 +1,7 @@
+[rules]
+https://anongit.mindrot.org/* = https://anongit.mindrot.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://anongit.mindrot.org/openssh.git = https://anongit.mindrot.org/openssh.git/commit/?id=7959330a554051b5587f8af3fec0c2c0d5820f64
+
+# vim:ft=dosini
