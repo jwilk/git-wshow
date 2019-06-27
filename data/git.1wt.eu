@@ -1,0 +1,7 @@
+[rules]
+http://git.1wt.eu/git/* = http://git.1wt.eu/web?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+http://git.1wt.eu/git/nolibc.git/ = http://git.1wt.eu/web?p=nolibc.git;a=commitdiff;h=9537f3ba6173027aa28107b1d1e8490ca3e53275
+
+# vim:ft=dosini
