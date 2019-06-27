@@ -1,0 +1,7 @@
+[rules]
+https://ezix.org/src/* = https://ezix.org/src/$repo/commit/$commit
+
+[tests]
+https://ezix.org/src/pkg/lshw = https://ezix.org/src/pkg/lshw/commit/9567d10e4eb1c561030444dd3b7fe50ebb755f3e
+
+# vim:ft=dosini
