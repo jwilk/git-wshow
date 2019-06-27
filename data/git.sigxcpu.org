@@ -1,0 +1,7 @@
+[rules]
+https://git.sigxcpu.org/cgit/* = https://git.sigxcpu.org/cgit/$repo/commit/?id=$commit
+
+[tests]
+https://git.sigxcpu.org/cgit/git-buildpackage/ = https://git.sigxcpu.org/cgit/git-buildpackage/commit/?id=d1960b3dc0dfbb6be2183e555e615864468b234c
+
+# vim:ft=dosini
