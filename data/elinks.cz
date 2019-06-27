@@ -1,0 +1,7 @@
+[rules]
+http://elinks.cz/* = https://repo.or.cz/$repo.git/commit/$commit
+
+[tests]
+http://elinks.cz/elinks.git = https://repo.or.cz/elinks.git/commit/f86be659718c0cd0a67f88b42f07044c23d0d028
+
+# vim:ft=dosini
