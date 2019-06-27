@@ -1,0 +1,7 @@
+[rules]
+https://git.noreply.org/* = https://gitweb.noreply.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.noreply.org/tools/weaselutils.git = https://gitweb.noreply.org/tools/weaselutils.git/commit/?id=ad1d921617bd0319230269d32b1a8217b6402214
+
+# vim:ft=dosini
