@@ -1,0 +1,7 @@
+[rules]
+https://fedorapeople.org/cgit/* = https://fedorapeople.org/cgit/$repo.git/commit/?id=$commit
+
+[tests]
+https://fedorapeople.org/cgit/jolsa/public_git/latrace.git = https://fedorapeople.org/cgit/jolsa/public_git/latrace.git/commit/?id=2849dc00038e6b18403ffae653c89ae0b835a14a
+
+# vim:ft=dosini
