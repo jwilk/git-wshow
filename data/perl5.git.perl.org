@@ -1,0 +1,7 @@
+[rules]
+https://perl5.git.perl.org/* = https://perl5.git.perl.org/$repo.git/commitdiff/$commit
+
+[tests]
+https://perl5.git.perl.org/perl.git = https://perl5.git.perl.org/perl.git/commitdiff/1a7108fea1f14e60c0d69b29980183cf21288bef
+
+# vim:ft=dosini
