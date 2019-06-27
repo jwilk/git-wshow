@@ -34,7 +34,7 @@ while (defined $repo and not $commit_url_tail =~ m{\b\Q$repo\E\b}) {
     (my $comp, $repo) = split('/', $repo, 2);
     $root_url .= "$comp/";
 }
-defined $repo
+($repo // '') ne ''
     or die "commit URL <$commit_url> doesn't contain repository name";
 my $commit_url_template = $commit_url_tail;
 $commit_url_template =~ s{\b\Q$repo\E\b}{\$repo} or die;
