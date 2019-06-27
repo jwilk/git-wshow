@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.crans.org/* = https://gitlab.crans.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.crans.org/leger/flatlatex = https://gitlab.crans.org/leger/flatlatex/commit/f0defccda7b174550fff8b1c6a920393e65b8667
+
+# vim:ft=dosini
