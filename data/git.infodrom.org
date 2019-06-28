@@ -1,0 +1,7 @@
+[rules]
+git://git.infodrom.org/* = http://git.infodrom.org/?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+git://git.infodrom.org/infodrom/sysklogd = http://git.infodrom.org/?p=infodrom/sysklogd;a=commitdiff;h=9abddd6b552a341b9b7c63c8bddfc95863821abd
+
+# vim:ft=dosini
