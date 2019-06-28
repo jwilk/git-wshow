@@ -26,7 +26,8 @@ $basedir = Cwd::realpath($basedir);
 $basedir = File::Spec->abs2rel($basedir);
 
 my ($repo_url, $commit_url) = @ARGV;
-my ($root_url, $domain, $repo) = ($repo_url =~ m{(\A\w+://([^/]+)/)(.+)});
+my ($root_url, $domain, $repo) = ($repo_url =~ m{(\A\w+://([^/]+)/)(.+)})
+    or die "repo URL <$repo_url> doesn't contain repository name";
 $repo =~ s{/[.]git$}{};
 $repo =~ s{/$}{};
 $repo =~ s{[.]git$}{};
