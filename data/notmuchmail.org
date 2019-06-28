@@ -1,0 +1,7 @@
+[rules]
+git://notmuchmail.org/git/* = https://git.notmuchmail.org/git?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+git://notmuchmail.org/git/notmuch = https://git.notmuchmail.org/git?p=notmuch;a=commitdiff;h=b23902a61158ecdbca2d9d96c6eaf509d6e3d205
+
+# vim:ft=dosini
