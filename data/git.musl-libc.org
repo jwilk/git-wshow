@@ -1,0 +1,7 @@
+[rules]
+git://git.musl-libc.org/* = https://git.musl-libc.org/cgit/$repo/commit/?id=$commit
+
+[tests]
+git://git.musl-libc.org/musl = https://git.musl-libc.org/cgit/musl/commit/?id=54b7564b72c1edcc79fca083047521fb56eaea00
+
+# vim:ft=dosini
