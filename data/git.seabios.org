@@ -1,0 +1,7 @@
+[rules]
+git://git.seabios.org/* = https://git.seabios.org/cgit/$repo.git/commit/?id=$commit
+
+[tests]
+git://git.seabios.org/seabios.git = https://git.seabios.org/cgit/seabios.git/commit/?id=30f1e41f04fb4c715d27f987f003cfc31c9ff4f3
+
+# vim:ft=dosini
