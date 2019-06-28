@@ -1,0 +1,7 @@
+[rules]
+git://git.nomeata.de/* = http://git.nomeata.de/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.nomeata.de/libnss-gw-name.git = http://git.nomeata.de/?p=libnss-gw-name.git;a=commitdiff;h=521d539b69dacbe240bbd3d70905b3292def58b6
+
+# vim:ft=dosini
