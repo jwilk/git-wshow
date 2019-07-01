@@ -13,7 +13,7 @@ use File::Temp ();
 use FindBin ();
 use Cwd ();
 
-use autodie qw(open close symlink);
+use autodie qw(open close);
 
 use Test::More;
 
