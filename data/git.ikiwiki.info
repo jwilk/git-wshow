@@ -1,0 +1,7 @@
+[rules]
+git://git.ikiwiki.info = http://source.ikiwiki.branchable.com/?p=source.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.ikiwiki.info = http://source.ikiwiki.branchable.com/?p=source.git;a=commitdiff;h=96931fd36aa330a9403fd2e82c0867ece7bc6382
+
+# vim:ft=dosini
