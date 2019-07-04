@@ -1,0 +1,7 @@
+[rules]
+https://git.fsfe.org/* = https://git.fsfe.org/$repo/commit/$commit
+
+[tests]
+https://git.fsfe.org/reuse/simple-hello.git = https://git.fsfe.org/reuse/simple-hello/commit/5caf555b8447776e9f643ed5ce8452404bb58cbd
+
+# vim:ft=dosini
