@@ -1,0 +1,7 @@
+[rules]
+https://git.marlam.de/git/* = https://git.marlam.de/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.marlam.de/git/msmtp.git = https://git.marlam.de/gitweb/?p=msmtp.git;a=commitdiff;h=de1f604d416fd79428bb69eeb724bc2961608874
+
+# vim:ft=dosini
