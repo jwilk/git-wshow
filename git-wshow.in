@@ -5,7 +5,7 @@
 
 usage()
 {
-    printf 'Usage:\n  %s [-r REMOTE] COMMIT\n' "$prog"
+    printf 'Usage:\n  %s [-r REMOTE] [-a N] COMMIT\n' "$prog"
 }
 
 is_sha1()
@@ -21,11 +21,13 @@ is_sha1()
 set -e -u -C
 prog="${0##*/}"
 remote=origin
-while getopts 'hr:' opt
+hlen=40
+while getopts 'hr:a:' opt
 do
     case "$opt" in
         h) usage; exit 0;;
         r) remote="$OPTARG";;
+        a) hlen="$OPTARG";;
         *) exit 1;;
     esac
 done
@@ -37,11 +39,11 @@ then
     exit 1
 fi
 revision="$1"
-if LC_ALL=C is_sha1 "$revision"
+if [ "$hlen" -eq 40 ] && LC_ALL=C is_sha1 "$revision"
 then
     commit="$revision"
 else
-    commit=$(git rev-parse "$revision")
+    commit=$(git rev-parse --short="$hlen" "$revision")
 fi
 remote_url=$(git remote get-url "$remote")
 remote_url=${remote_url%/.git}
