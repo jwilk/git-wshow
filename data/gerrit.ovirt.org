@@ -1,0 +1,7 @@
+[rules]
+https://gerrit.ovirt.org/* = https://gerrit.ovirt.org/gitweb?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://gerrit.ovirt.org/pthreading.git = https://gerrit.ovirt.org/gitweb?p=pthreading.git;a=commitdiff;h=94895de9cdb00778469a177dc9d3880013280914
+
+# vim:ft=dosini
