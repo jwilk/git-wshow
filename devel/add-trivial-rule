@@ -41,7 +41,7 @@ while (defined $repo and not $commit_url_tail =~ m{\b\Q$repo\E\b}) {
 my $commit_url_template = $commit_url_tail;
 $commit_url_template =~ s{\b\Q$repo\E\b}{\$repo} or die;
 $commit_url_template =~ s{\b[0-9a-f]{40}\b}{\$commit}
-    or die "commit URL <$commit_url> doesn't commit hash";
+    or die "commit URL <$commit_url> doesn't contain commit hash";
 $commit_url_template = "$commit_url_head$commit_url_template";
 
 my $path = "$basedir/data/$domain";
