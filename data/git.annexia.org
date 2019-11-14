@@ -1,0 +1,7 @@
+[rules]
+git://git.annexia.org/* = http://git.annexia.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.annexia.org/ioport.git = http://git.annexia.org/?p=ioport.git;a=commitdiff;h=af4b1b5b7d1e596efdd27e9a12b8ea6f13b63f51
+
+# vim:ft=dosini
