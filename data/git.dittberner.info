@@ -1,0 +1,7 @@
+[rules]
+https://git.dittberner.info/* = https://git.dittberner.info/$repo/commit/$commit
+
+[tests]
+https://git.dittberner.info/jan/debianmemberportfolio.git = https://git.dittberner.info/jan/debianmemberportfolio/commit/a6dfa99ea8971338ccacbb975b59dfe2b45aff29
+
+# vim:ft=dosini
