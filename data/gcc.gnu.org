@@ -1,0 +1,7 @@
+[rules]
+https://gcc.gnu.org/git/* = https://gcc.gnu.org/git/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://gcc.gnu.org/git/gcc.git = https://gcc.gnu.org/git/?p=gcc.git;a=commitdiff;h=a33649e66640b35fc69f7f7f47346614a12b12d9
+
+# vim:ft=dosini
