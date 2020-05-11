@@ -1,0 +1,7 @@
+[rules]
+https://git.elephly.net/* = https://git.elephly.net/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.elephly.net/software/mumi.git = https://git.elephly.net/?p=software/mumi.git;a=commitdiff;h=a1aac14c45bc9bf3d57a32fbf267b8df68887a80
+
+# vim:ft=dosini
