@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.xiph.org/* = https://gitlab.xiph.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.xiph.org/xiph/ogg.git = https://gitlab.xiph.org/xiph/ogg/commit/1e8d7cce266df61afc9d35db0283bbacc0237aba
+
+# vim:ft=dosini
