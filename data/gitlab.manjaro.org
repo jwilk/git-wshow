@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.manjaro.org/* = https://gitlab.manjaro.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.manjaro.org/applications/pamac.git = https://gitlab.manjaro.org/applications/pamac/commit/eb445fb76e953fe41605df1ccaa371a892171545
+
+# vim:ft=dosini
