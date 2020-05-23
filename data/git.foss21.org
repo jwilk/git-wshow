@@ -1,0 +1,7 @@
+[rules]
+https://git.foss21.org/* = https://git.foss21.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.foss21.org/slibtool = https://git.foss21.org/slibtool/commit/?id=2191ff0d40a2bd3db55873b38fd961f888c3cd5f
+
+# vim:ft=dosini
