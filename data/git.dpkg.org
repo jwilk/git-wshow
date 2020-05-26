@@ -1,0 +1,7 @@
+[rules]
+https://git.dpkg.org/git/* = https://git.dpkg.org/cgit/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.dpkg.org/git/dpkg/dpkg-repack.git = https://git.dpkg.org/cgit/dpkg/dpkg-repack.git/commit/?id=4855f9f0571b5b1f8865343027aadbe9b037b6ec
+
+# vim:ft=dosini
