@@ -1,0 +1,7 @@
+[rules]
+https://git.archive.openwrt.org/* = https://git.archive.openwrt.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.archive.openwrt.org/packages.git = https://git.archive.openwrt.org/?p=packages.git;a=commitdiff;h=fde282654e7cd32f304e186780238fce45787794
+
+# vim:ft=dosini
