@@ -1,0 +1,7 @@
+[rules]
+https://buildd.debian.org/git/* = https://salsa.debian.org/wb-team/$repo/commit/$commit
+
+[tests]
+https://buildd.debian.org/git/wanna-build.git/ = https://salsa.debian.org/wb-team/wanna-build/commit/eeb1d9cfd2ebaa4f6ccd2fffbb5de6b80dc74f8c
+
+# vim:ft=dosini
