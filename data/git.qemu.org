@@ -1,0 +1,7 @@
+[rules]
+https://git.qemu.org/git/* = https://git.qemu.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.qemu.org/git/seabios.git = https://git.qemu.org/?p=seabios.git;a=commitdiff;h=88ab0c15525ced2eefe39220742efe4769089ad8
+
+# vim:ft=dosini
