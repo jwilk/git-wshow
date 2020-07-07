@@ -1,0 +1,7 @@
+[rules]
+https://bitbucket.hdfgroup.org/scm/hdffr/* = https://bitbucket.hdfgroup.org/projects/HDFFR/repos/$repo/commits/$commit
+
+[tests]
+https://bitbucket.hdfgroup.org/scm/hdffr/hdf4.git = https://bitbucket.hdfgroup.org/projects/HDFFR/repos/hdf4/commits/30d4688eb43041c9097a450f6aff7073eeac99ad
+
+# vim:ft=dosini
