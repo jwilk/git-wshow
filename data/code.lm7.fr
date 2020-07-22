@@ -1,0 +1,7 @@
+[rules]
+https://code.lm7.fr/* = https://code.lm7.fr/$repo/commit/$commit
+
+[tests]
+https://code.lm7.fr/mcy/gcp.git = https://code.lm7.fr/mcy/gcp/commit/476f3115591ebfe621983ebc0c81da7dd490103c
+
+# vim:ft=dosini
