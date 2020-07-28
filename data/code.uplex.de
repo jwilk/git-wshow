@@ -1,0 +1,7 @@
+[rules]
+https://code.uplex.de/* = https://code.uplex.de/$repo/commit/$commit
+
+[tests]
+https://code.uplex.de/liblongpath/liblongpath.git = https://code.uplex.de/liblongpath/liblongpath/commit/2e46a921ce2b6b1caa56d39cbd58be85c5988bd0
+
+# vim:ft=dosini
