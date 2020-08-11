@@ -1,0 +1,7 @@
+[rules]
+https://invent.kde.org/* = https://invent.kde.org/$repo/commit/$commit
+
+[tests]
+https://invent.kde.org/utilities/konsole.git = https://invent.kde.org/utilities/konsole/commit/f4bf8a426b7df103057afcdebccf4561edd8fbb6
+
+# vim:ft=dosini
