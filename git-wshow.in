@@ -5,7 +5,7 @@
 
 usage()
 {
-    printf 'Usage:\n  %s [-r REMOTE] [-a N] COMMIT\n' "$prog"
+    printf 'Usage:\n  %s [-r REMOTE] [-a N] [-A] COMMIT\n' "$prog"
 }
 
 is_sha1()
@@ -22,12 +22,14 @@ set -e -u -C
 prog="${0##*/}"
 remote=origin
 hlen=40
-while getopts 'hr:a:' opt
+alt=
+while getopts 'hr:a:A' opt
 do
     case "$opt" in
         h) usage; exit 0;;
         r) remote="$OPTARG";;
         a) hlen="$OPTARG";;
+        A) alt=y;;
         *) exit 1;;
     esac
 done
@@ -52,6 +54,13 @@ remote_url=${remote_url%.git}
 url=
 # BEGIN GENERATED CODE
 # END GENERATED CODE
+if [ "$alt" ]
+then
+    case $url in
+        'https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id='*)
+            url="https://git.kernel.org/linus/$commit";;
+    esac
+fi
 if [ -z "$url" ]
 then
     printf '%s: unsupported remote URL %s\n' "$prog" "$remote_url"
