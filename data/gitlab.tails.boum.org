@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.tails.boum.org/* = https://gitlab.tails.boum.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.tails.boum.org/tails/tails.git = https://gitlab.tails.boum.org/tails/tails/commit/7c9421d6195eb617bd3563515e53ba2218c73b4f
+
+# vim:ft=dosini
