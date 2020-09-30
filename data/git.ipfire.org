@@ -1,0 +1,7 @@
+[rules]
+https://git.ipfire.org/pub/git/* = https://git.ipfire.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.ipfire.org/pub/git/location/libloc.git = https://git.ipfire.org/?p=location/libloc.git;a=commitdiff;h=92f6abf4e272672bb0a71cfe991261b95ebe2fef
+
+# vim:ft=dosini
