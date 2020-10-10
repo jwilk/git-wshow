@@ -1,0 +1,7 @@
+[rules]
+https://git.sesse.net/* = https://git.sesse.net/?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+https://git.sesse.net/plocate = https://git.sesse.net/?p=plocate;a=commitdiff;h=3f95961e506c148b5d5bca8912c1f00be269ebb9
+
+# vim:ft=dosini
