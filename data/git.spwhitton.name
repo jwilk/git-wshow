@@ -1,0 +1,7 @@
+[rules]
+https://git.spwhitton.name/* = https://git.spwhitton.name/$repo/commit/?id=$commit
+
+[tests]
+https://git.spwhitton.name/mailscripts = https://git.spwhitton.name/mailscripts/commit/?id=bcae92b442ab909e633a838d5f83bcf8185b2784
+
+# vim:ft=dosini
