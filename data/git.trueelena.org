@@ -1,0 +1,7 @@
+[rules]
+https://git.trueelena.org/* = https://git.trueelena.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.trueelena.org/software/debdate = https://git.trueelena.org/software/debdate/commit/?id=de8bf8ff5625207b8c60d9cfa706c7d3e6976cf7
+
+# vim:ft=dosini
