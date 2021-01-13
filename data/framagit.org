@@ -1,0 +1,7 @@
+[rules]
+https://framagit.org/* = https://framagit.org/$repo/commit/$commit
+
+[tests]
+https://framagit.org/1ohmatr/sw/py/askpass.git = https://framagit.org/1ohmatr/sw/py/askpass/commit/89575a4ee068f2f5a6452b876efc9301d66f3e93
+
+# vim:ft=dosini
