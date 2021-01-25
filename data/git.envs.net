@@ -1,0 +1,7 @@
+[rules]
+https://git.envs.net/* = https://git.envs.net/$repo/commit/$commit
+
+[tests]
+https://git.envs.net/mpech/ascii-crc = https://git.envs.net/mpech/ascii-crc/commit/e683c7b00a72e5298c603c92cbf018580d3d3b54
+
+# vim:ft=dosini
