@@ -1,0 +1,7 @@
+[rules]
+https://i2pgit.org/* = https://i2pgit.org/$repo/commit/$commit
+
+[tests]
+https://i2pgit.org/i2pgit/tos.git = https://i2pgit.org/i2pgit/tos/commit/4eeff2a6f2890f1c968d8df3bd60887b54c64d21
+
+# vim:ft=dosini
