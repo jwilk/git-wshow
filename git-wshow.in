@@ -30,7 +30,7 @@ do
         r) remote="$OPTARG";;
         a) hlen="$OPTARG";;
         A) alt=y;;
-        p) BROWSER=echo;;
+        p) BROWSER='echo';;
         *) exit 1;;
     esac
 done
