@@ -1,0 +1,7 @@
+[rules]
+https://git.skoll.ca/* = https://git.skoll.ca/$repo/commit/$commit
+
+[tests]
+https://git.skoll.ca/Skollsoft-Public/Remind.git = https://git.skoll.ca/Skollsoft-Public/Remind/commit/295aeb0ed8b090528c66632490ca30c6e4e15764
+
+# vim:ft=dosini
