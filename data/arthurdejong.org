@@ -1,0 +1,7 @@
+[rules]
+https://arthurdejong.org/git/* = https://arthurdejong.org/git/$repo/commit/?id=$commit
+
+[tests]
+https://arthurdejong.org/git/python-stdnum = https://arthurdejong.org/git/python-stdnum/commit/?id=36d723ce54dc0a9e2404e24b55311321367786af
+
+# vim:ft=dosini
