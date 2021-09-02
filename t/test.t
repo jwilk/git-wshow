@@ -98,7 +98,11 @@ my $tmpdir = File::Temp->newdir(TEMPLATE => 'git-wshow.test.XXXXXX', TMPDIR => 1
 
 system('git', 'init', "$tmpdir/repo");
 my @gitcmd = ('git', '-C', "$tmpdir/repo");
-system(@gitcmd, 'commit', '-m', '', '--allow-empty', '--allow-empty-message');
+system(@gitcmd,
+    '-c', 'user.email=nobody@example.org',
+    '-c', 'user.name=test',
+    'commit', '-m', '', '--allow-empty', '--allow-empty-message'
+);
 system(@gitcmd, 'remote', 'add', 'origin', 'git://example.org/');
 my $fake_commit = capture(@gitcmd, 'rev-parse', 'HEAD');
 chomp $fake_commit;
