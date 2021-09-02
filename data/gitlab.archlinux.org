@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.archlinux.org/* = https://gitlab.archlinux.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.archlinux.org/pacman/pacman.git = https://gitlab.archlinux.org/pacman/pacman/commit/fc7986485cad9c93df7e59979a7e950fffdc4271
+
+# vim:ft=dosini
