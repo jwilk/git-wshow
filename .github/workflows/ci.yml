@@ -21,5 +21,12 @@ jobs:
         shellcheck git-wshow
     - run:
         make test
+    - run:
+        make install PREFIX=~/.local
+    - run:
+        make clean
+    - name: post-install smoke test
+      run: |
+        BROWSER=echo git wshow
 
 # vim:ts=2 sts=2 sw=2 et
