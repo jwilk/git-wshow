@@ -1,4 +1,4 @@
-# Copyright © 2019 Jakub Wilk <jwilk@jwilk.net>
+# Copyright © 2019-2021 Jakub Wilk <jwilk@jwilk.net>
 # SPDX-License-Identifier: MIT
 
 PREFIX = /usr/local
