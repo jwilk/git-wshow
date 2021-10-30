@@ -42,6 +42,7 @@ then
     exit 1
 fi
 revision="$1"
+hlen=$((hlen))
 if [ "$hlen" -eq 40 ] && LC_ALL=C is_sha1 "$revision"
 then
     commit="$revision"
