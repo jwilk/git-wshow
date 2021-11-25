@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.torproject.org/* = https://gitlab.torproject.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.torproject.org/tpo/core/tor.git = https://gitlab.torproject.org/tpo/core/tor/commit/b4c55f3a700b9c071c7f8466499ed9cf5ef76fc7
+
+# vim:ft=dosini
