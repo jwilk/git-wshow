@@ -13,8 +13,8 @@ git-wshow: git-wshow.in devel/generate-code $(wildcard data/*)
 	grep -B 999999 -x '# BEGIN GENERATED CODE' git-wshow.in > git-wshow.tmp
 	devel/generate-code data/* >>  git-wshow.tmp
 	grep -A 999999 -x '# END GENERATED CODE' git-wshow.in >> git-wshow.tmp
-	chmod +x git-wshow.tmp
-	mv git-wshow.tmp git-wshow
+	chmod -w+x git-wshow.tmp
+	mv -f git-wshow.tmp git-wshow
 
 .PHONY: install
 install: git-wshow
