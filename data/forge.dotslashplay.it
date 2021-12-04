@@ -1,0 +1,7 @@
+[rules]
+https://forge.dotslashplay.it/* = https://forge.dotslashplay.it/$repo/commit/$commit
+
+[tests]
+https://forge.dotslashplay.it/play.it/scripts.git = https://forge.dotslashplay.it/play.it/scripts/commit/80064408ac50ee482f98b4dcae4a0dde1c028c56
+
+# vim:ft=dosini
