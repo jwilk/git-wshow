@@ -1,0 +1,7 @@
+[rules]
+https://git.eyrie.org/git/* = https://git.eyrie.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.eyrie.org/git/perl/ansicolor.git = https://git.eyrie.org/?p=perl/ansicolor.git;a=commitdiff;h=e81d29a6111f64d412f9650b2fd58f1cc74fbb2f
+
+# vim:ft=dosini
