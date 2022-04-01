@@ -1,0 +1,7 @@
+[rules]
+https://code.opensuse.org/* = https://code.opensuse.org/$repo/c/$commit
+
+[tests]
+https://code.opensuse.org/project/coc = https://code.opensuse.org/project/coc/c/34d4fd50bdf27efe0cf6cefae86b55699eb83085
+
+# vim:ft=dosini
