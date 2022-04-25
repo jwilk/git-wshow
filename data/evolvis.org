@@ -1,0 +1,7 @@
+[rules]
+https://evolvis.org/anonscm/git/* = https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://evolvis.org/anonscm/git/alioth/mksh.git = https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/mksh.git;a=commitdiff;h=d67404a0f2436cdcf9fc36f3293cb1e7804d4e67
+
+# vim:ft=dosini
