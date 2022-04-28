@@ -1,0 +1,7 @@
+[rules]
+https://git.yoctoproject.org/* = https://git.yoctoproject.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.yoctoproject.org/pseudo = https://git.yoctoproject.org/pseudo/commit/?id=060058bb29f70b244e685b3c704eb0641b736f73
+
+# vim:ft=dosini
