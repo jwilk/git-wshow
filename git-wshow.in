@@ -41,7 +41,10 @@ do
                     exit 1;;
             esac
             ;;
-        *) exit 1;;
+        *)
+            usage >&2
+            exit 1
+            ;;
     esac
 done
 shift $((OPTIND - 1))
