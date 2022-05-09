@@ -6,6 +6,18 @@
 usage()
 {
     printf 'Usage: %s [-r REMOTE] [-a N] [-A] [-p] COMMIT\n' "$prog"
+    if [ "${1-}" = long ]
+    then
+        printf '\n'
+        cat <<'EOF'
+Options:
+  -r REMOTE   use this remote
+  -a N        abbreviate hash to N digits (or more)
+  -A          use alternative URL
+  -p          only print the URL
+  -h, --help  show this help message and exit
+EOF
+    fi
 }
 
 is_sha1()
@@ -31,13 +43,13 @@ do
         A) alt=y;;
         p) BROWSER='echo';;
         h)
-            usage
+            usage long
             exit
             ;;
         -)
             case $OPTARG in
                 help)
-                    usage
+                    usage long
                     exit;;
                 *)
                     usage >&2
