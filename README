@@ -1,0 +1,22 @@
+.. code:: console
+
+   $ git-wshow --help
+   Usage: git-wshow [-r REMOTE] [-a N] [-A] [-p] COMMIT
+
+   Options:
+     -r REMOTE   use this remote
+     -a N        abbreviate hash to N digits (or more)
+     -A          use alternative URL
+     -p          only print the URL
+     -h, --help  show this help message and exit
+
+   $ git show 823091df626b74cf
+   commit 823091df626b74cfa3542fa6d4eecdee6a1b3c08
+   Author: Jakub Wilk <jwilk@jwilk.net>
+   Date:   2021-11-26 11:53:31 +0100
+   ⋮
+
+   $ git wshow 823091df626b
+   <opens https://github.com/jwilk/git-wshow/commit/823091df626b74cfa3542fa6d4eecdee6a1b3c08>
+
+.. vim:ft=rst ts=3 sts=3 sw=3 et
