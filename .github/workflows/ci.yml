@@ -32,5 +32,9 @@ jobs:
     - name: post-install smoke test
       run: |
         BROWSER=echo git wshow
+    - name: check README syntax
+      run: |
+        pip install restructuredtext-lint pygments
+        rst-lint --level=info --encoding=UTF-8 README
 
 # vim:ts=2 sts=2 sw=2 et
