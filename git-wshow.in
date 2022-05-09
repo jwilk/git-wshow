@@ -23,7 +23,7 @@ prog="${0##*/}"
 remote=origin
 hlen=40
 alt=
-while getopts 'hr:a:Ap' opt
+while getopts 'hr:a:Ap-:' opt
 do
     case "$opt" in
         h) usage; exit 0;;
@@ -31,6 +31,16 @@ do
         a) hlen="$OPTARG";;
         A) alt=y;;
         p) BROWSER='echo';;
+        -)
+            case $OPTARG in
+                help)
+                    usage
+                    exit;;
+                *)
+                    usage >&2
+                    exit 1;;
+            esac
+            ;;
         *) exit 1;;
     esac
 done
