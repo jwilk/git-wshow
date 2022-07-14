@@ -20,15 +20,20 @@ jobs:
     - name: install deps
       run:
         sudo apt-get install libipc-system-simple-perl
-    - run:
+    - name: build
+      run:
         make
-    - run:
+    - name: run shellcheck
+      run:
         shellcheck git-wshow
-    - run:
+    - name: run tests
+      run:
         make test
-    - run:
+    - name: make install
+      run:
         make install PREFIX=~/.local
-    - run:
+    - name: make clean
+      run:
         make clean
     - name: post-install smoke test
       run: |
