@@ -18,7 +18,7 @@ jobs:
         sudo apt-get update
     - name: install deps
       run:
-        sudo apt-get install libipc-run-perl
+        sudo apt-get install libipc-system-simple-perl
     - run:
         make
     - run:
