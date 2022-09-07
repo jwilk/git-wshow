@@ -1,0 +1,7 @@
+[rules]
+https://src.fedoraproject.org/* = https://src.fedoraproject.org/$repo/c/$commit
+
+[tests]
+https://src.fedoraproject.org/rpms/grep = https://src.fedoraproject.org/rpms/grep/c/d45159f4047bf468ccb53aa890b4e8ace12f1f85
+
+# vim:ft=dosini
