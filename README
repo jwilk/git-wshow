@@ -10,7 +10,7 @@
      -p          only print the URL
      -h, --help  show this help message and exit
 
-   $ git show 823091df626b74cf
+   $ git show 823091df626b
    commit 823091df626b74cfa3542fa6d4eecdee6a1b3c08
    Author: Jakub Wilk <jwilk@jwilk.net>
    Date:   2021-11-26 11:53:31 +0100
