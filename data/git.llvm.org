@@ -1,7 +1,0 @@
-[rules]
-https://git.llvm.org/git/* = https://git.llvm.org/klaus/$repo/commit/$commit/
-
-[tests]
-https://git.llvm.org/git/libcxxabi.git = https://git.llvm.org/klaus/libcxxabi/commit/c9a6d09e0c2c5bfdf51ed60b6d0335d2d04564f1/
-
-# vim:ft=dosini
