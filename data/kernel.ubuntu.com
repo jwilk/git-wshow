@@ -2,6 +2,6 @@
 git://kernel.ubuntu.com/* = https://kernel.ubuntu.com/git/$repo.git/commit/?id=$commit
 
 [tests]
-git://kernel.ubuntu.com/cking/pagemon.git = https://kernel.ubuntu.com/git/cking/pagemon.git/commit/?id=edc3789756227ff38bca485571a06b5a54dc815f
+git://kernel.ubuntu.com/cking/stress-ng.git = https://kernel.ubuntu.com/git/cking/stress-ng.git/commit/?id=9093bce765cfd02256c92f2da33e762b253080ae
 
 # vim:ft=dosini
