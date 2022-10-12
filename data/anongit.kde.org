@@ -1,7 +1,0 @@
-[rules]
-https://anongit.kde.org/* = https://cgit.kde.org/$repo.git/commit/?id=$commit
-
-[tests]
-https://anongit.kde.org/lokalize.git = https://cgit.kde.org/lokalize.git/commit/?id=cc3e727721891a106cdf193a6bee374919934bf7
-
-# vim:ft=dosini
