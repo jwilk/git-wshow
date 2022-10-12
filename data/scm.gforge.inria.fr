@@ -1,7 +1,0 @@
-[rules]
-https://scm.gforge.inria.fr/anonscm/git/* = https://scm.gforge.inria.fr/anonscm/gitweb?p=$repo.git;a=commitdiff;h=$commit
-
-[tests]
-https://scm.gforge.inria.fr/anonscm/git/dose/dose.git = https://scm.gforge.inria.fr/anonscm/gitweb?p=dose/dose.git;a=commitdiff;h=7f1220f365203785ac3fb5c7e30c6d56ea727491
-
-# vim:ft=dosini
