@@ -1,7 +1,0 @@
-[rules]
-https://git.lxde.org/git/* = https://git.lxde.org/gitweb/?p=$repo.git;a=commitdiff;h=$commit
-
-[tests]
-https://git.lxde.org/git/lxde/gpicview.git = https://git.lxde.org/gitweb/?p=lxde/gpicview.git;a=commitdiff;h=255dbc59c7805de0924d70e071ad7d02b04f2edb
-
-# vim:ft=dosini
