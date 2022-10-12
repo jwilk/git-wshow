@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.inria.fr/* = https://gitlab.inria.fr/$repo/commit/$commit
+
+[tests]
+https://gitlab.inria.fr/mpc/mpc.git = https://gitlab.inria.fr/mpc/mpc/commit/56b28503bf91f2169cf7374287ae05d7a2feda0b
+
+# vim:ft=dosini
