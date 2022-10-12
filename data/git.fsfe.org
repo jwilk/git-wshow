@@ -2,6 +2,6 @@
 https://git.fsfe.org/* = https://git.fsfe.org/$repo/commit/$commit
 
 [tests]
-https://git.fsfe.org/reuse/simple-hello.git = https://git.fsfe.org/reuse/simple-hello/commit/5caf555b8447776e9f643ed5ce8452404bb58cbd
+https://git.fsfe.org/reuse/example.git = https://git.fsfe.org/reuse/example/commit/7dea87e9a1f8d1fa6581f73cef50d8496d90fdd1
 
 # vim:ft=dosini
