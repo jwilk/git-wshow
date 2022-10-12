@@ -1,7 +1,7 @@
 [rules]
-https://git.lighttpd.net/* = https://git.lighttpd.net/$repo.git/commit/?id=$commit
+https://git.lighttpd.net/* = https://git.lighttpd.net/$repo/commit/$commit
 
 [tests]
-https://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2.git/commit/?id=bda1a90f273d3f32e447f94c547cbdd722fce0ce
+https://git.lighttpd.net/lighttpd/lighttpd2.git = https://git.lighttpd.net/lighttpd/lighttpd2/commit/bda1a90f273d3f32e447f94c547cbdd722fce0ce
 
 # vim:ft=dosini
