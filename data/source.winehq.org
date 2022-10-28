@@ -1,7 +1,9 @@
 [rules]
+git://source.winehq.org/git/* = https://source.winehq.org/git/$repo.git/commitdiff/$commit
 https://source.winehq.org/git/* = https://source.winehq.org/git/$repo.git/commitdiff/$commit
 
 [tests]
+git://source.winehq.org/git/wine.git = https://source.winehq.org/git/wine.git/commitdiff/6d417f7890ee94dd17acc18eb2ef81f152dd0ed0
 https://source.winehq.org/git/wine.git = https://source.winehq.org/git/wine.git/commitdiff/6d417f7890ee94dd17acc18eb2ef81f152dd0ed0
 
 # vim:ft=dosini
