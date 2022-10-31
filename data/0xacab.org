@@ -1,0 +1,7 @@
+[rules]
+https://0xacab.org/* = https://0xacab.org/$repo/commit/$commit
+
+[tests]
+https://0xacab.org/jvoisin/mat2.git = https://0xacab.org/jvoisin/mat2/commit/618e0a8e3984fd534b95ef3dbdcb8a76502c90b5
+
+# vim:ft=dosini
