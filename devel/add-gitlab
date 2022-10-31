@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Copyright © 2022 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
+set -e -u
+
+if [ $# -ne 2 ]
+then
+    printf 'Usage: %s REPO-URL COMMIT\n' "$0" >&2
+    exit 1
+fi
+
+repo_url="$1"
+tmp=${repo_url%/}
+tmp=${repo_url%.git}
+commit="$2"
+commit_url="$tmp/commit/$commit"
+"${0%-gitlab}-trivial-rule" "$repo_url" "$commit_url"
+
+# vim:ts=4 sts=4 sw=4 et
