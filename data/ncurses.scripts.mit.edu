@@ -1,7 +1,7 @@
 [rules]
-git://ncurses.scripts.mit.edu/* = http://ncurses.scripts.mit.edu/?p=$repo.git;a=commitdiff;h=$commit
+git://ncurses.scripts.mit.edu/* = https://ncurses.scripts.mit.edu/?p=$repo.git;a=commitdiff;h=$commit
 
 [tests]
-git://ncurses.scripts.mit.edu/ncurses.git = http://ncurses.scripts.mit.edu/?p=ncurses.git;a=commitdiff;h=fe43d506ce08d1deef9e9e5a6d5fd4f9c9c32e1d
+git://ncurses.scripts.mit.edu/ncurses.git = https://ncurses.scripts.mit.edu/?p=ncurses.git;a=commitdiff;h=fe43d506ce08d1deef9e9e5a6d5fd4f9c9c32e1d
 
 # vim:ft=dosini
