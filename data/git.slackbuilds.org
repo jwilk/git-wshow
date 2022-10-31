@@ -1,7 +1,7 @@
 [rules]
-git://git.slackbuilds.org/* = http://git.slackbuilds.org/$repo/commit/?id=$commit
+git://git.slackbuilds.org/* = https://git.slackbuilds.org/$repo/commit/?id=$commit
 
 [tests]
-git://git.slackbuilds.org/slackbuilds.git = http://git.slackbuilds.org/slackbuilds/commit/?id=363a906a0b578360fc08e5e6193c228be8fbe259
+git://git.slackbuilds.org/slackbuilds.git = https://git.slackbuilds.org/slackbuilds/commit/?id=363a906a0b578360fc08e5e6193c228be8fbe259
 
 # vim:ft=dosini
