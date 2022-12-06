@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.xfce.org/* = https://gitlab.xfce.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.xfce.org/apps/xfce4-terminal = https://gitlab.xfce.org/apps/xfce4-terminal/commit/d5b38a93c953ace088ff01eac2b57722073ffd68
+
+# vim:ft=dosini
