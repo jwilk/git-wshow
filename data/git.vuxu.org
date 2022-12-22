@@ -1,0 +1,7 @@
+[rules]
+https://git.vuxu.org/* = https://git.vuxu.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.vuxu.org/xe = https://git.vuxu.org/xe/commit/?id=8a2a4899769335bc14c62aef12cdf26f2f487f2a
+
+# vim:ft=dosini
