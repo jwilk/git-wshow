@@ -1,0 +1,7 @@
+[rules]
+https://git.systemreboot.net/* = https://git.systemreboot.net/$repo/commit/?id=$commit
+
+[tests]
+https://git.systemreboot.net/meen/ = https://git.systemreboot.net/meen/commit/?id=5ac7793cd88f8fbf80e7128862d989c7e42721bb
+
+# vim:ft=dosini
