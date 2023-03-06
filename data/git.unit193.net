@@ -1,0 +1,7 @@
+[rules]
+https://git.unit193.net/* = https://git.unit193.net/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.unit193.net/cgit/users/unit193/yt-dlp.git = https://git.unit193.net/cgit/users/unit193/yt-dlp.git/commit/?id=abe9885b1b5613783d48f7a2ce4c89ce7dd9ab66
+
+# vim:ft=dosini
