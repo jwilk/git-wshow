@@ -31,7 +31,8 @@ my ($root_url, $domain, $repo) = ($repo_url =~ m{(\A\w+://([^/]+)/)(.+)})
 $repo =~ s{/[.]git$}{};
 $repo =~ s{/$}{};
 $repo =~ s{[.]git$}{};
-my ($commit_url_head, $commit_url_tail) = $commit_url =~ m{(\A\w+://[^/]+/)(.+)};
+my ($commit_url_head, $commit_url_tail) = $commit_url =~ m{(\A\w+://[^/]+/)(.+)}
+    or die "invalid commit URL <$commit_url>";
 while (defined $repo and not $commit_url_tail =~ m{\b\Q$repo\E\b}) {
     (my $comp, $repo) = split('/', $repo, 2);
     $root_url .= "$comp/";
