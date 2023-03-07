@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.onelab.info/* = https://gitlab.onelab.info/$repo/commit/$commit
+
+[tests]
+https://gitlab.onelab.info/gl2ps/gl2ps.git = https://gitlab.onelab.info/gl2ps/gl2ps/commit/0fea874fa26fb47e319a206d70bca41772fcecad
+
+# vim:ft=dosini
