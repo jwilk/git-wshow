@@ -1,0 +1,9 @@
+[rules]
+git://git.geeqie.org/* = http://geeqie.org/cgi-bin/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
+http://git.geeqie.org/git/* = http://geeqie.org/cgi-bin/gitweb.cgi?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.geeqie.org/geeqie.git = http://geeqie.org/cgi-bin/gitweb.cgi?p=geeqie.git;a=commitdiff;h=96b2cd4ebaef205aee15bd6ae7a96e364397691d
+http://git.geeqie.org/git/geeqie.git = http://geeqie.org/cgi-bin/gitweb.cgi?p=geeqie.git;a=commitdiff;h=96b2cd4ebaef205aee15bd6ae7a96e364397691d
+
+# vim:ft=dosini
