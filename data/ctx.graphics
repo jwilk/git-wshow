@@ -1,0 +1,7 @@
+[rules]
+https://ctx.graphics/ = https://ctx.graphics/commit/$commit.html
+
+[tests]
+https://ctx.graphics/.git/ = https://ctx.graphics/commit/cf7e537555e2891c8f919f0508d3a979f6d6b676.html
+
+# vim:ft=dosini
