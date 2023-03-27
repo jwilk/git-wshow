@@ -1,0 +1,7 @@
+[rules]
+https://git.ao2.it/* = https://git.ao2.it/$repo.git/commitdiff/$commit
+
+[tests]
+https://git.ao2.it/tweeper.git = https://git.ao2.it/tweeper.git/commitdiff/2c7f7e5da9efb2905d9c87cb5a9a2d6c057f576c
+
+# vim:ft=dosini
