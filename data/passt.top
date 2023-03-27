@@ -1,0 +1,7 @@
+[rules]
+https://passt.top/* = https://passt.top/$repo/commit/?id=$commit
+
+[tests]
+https://passt.top/passt = https://passt.top/passt/commit/?id=f21204494064e28e9f0bb20f71a6071bead0d0e8
+
+# vim:ft=dosini
