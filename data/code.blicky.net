@@ -1,0 +1,7 @@
+[rules]
+https://code.blicky.net/* = https://code.blicky.net/$repo/commit/$commit
+
+[tests]
+https://code.blicky.net/yorhel/ncdu = https://code.blicky.net/yorhel/ncdu/commit/74be2772499b4eb065a11477c6632146ed647dc8
+
+# vim:ft=dosini
