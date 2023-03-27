@@ -1,0 +1,7 @@
+[rules]
+https://codeberg.org/* = https://codeberg.org/$repo/commit/$commit
+
+[tests]
+https://codeberg.org/Codeberg/GetItOnCodeberg = https://codeberg.org/Codeberg/GetItOnCodeberg/commit/1cb9d4ee81a902eb01f2ee0342eec968ca9f5a64
+
+# vim:ft=dosini
