@@ -1,0 +1,7 @@
+[rules]
+https://git.pleroma.social/* = https://git.pleroma.social/$repo/commit/$commit
+
+[tests]
+https://git.pleroma.social/pleroma/pleroma = https://git.pleroma.social/pleroma/pleroma/commit/fe00fbfd548f0564170ac124e3d8b9574036c303
+
+# vim:ft=dosini
