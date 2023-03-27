@@ -93,7 +93,7 @@ then
 fi
 if [ -z "$url" ]
 then
-    printf '%s: unsupported remote URL %s\n' "$prog" "$remote_url"
+    printf '%s: unsupported remote URL %s\n' "$prog" "$remote_url" >&2
     exit 1
 fi
 if [ "${BROWSER-}" = echo ]
