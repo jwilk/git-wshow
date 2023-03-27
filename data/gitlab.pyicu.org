@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.pyicu.org/* = https://gitlab.pyicu.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.pyicu.org/main/pyicu.git = https://gitlab.pyicu.org/main/pyicu/commit/008fc8418591e911416c06e55fa6b8ae77811371
+
+# vim:ft=dosini
