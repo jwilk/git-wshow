@@ -1,0 +1,7 @@
+[rules]
+https://git.gitano.org.uk/* = https://git.gitano.org.uk/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.gitano.org.uk/libgfshare.git = https://git.gitano.org.uk/libgfshare.git/commit/?id=da0566422af4e0ad5c9e17cfe21f563e4274338d
+
+# vim:ft=dosini
