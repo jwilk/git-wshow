@@ -1,0 +1,7 @@
+[rules]
+https://git.openldap.org/* = https://git.openldap.org/$repo/commit/$commit
+
+[tests]
+https://git.openldap.org/openldap/openldap = https://git.openldap.org/openldap/openldap/commit/e9da6241160f2ec518f5691353921bbaa19a47fa
+
+# vim:ft=dosini
