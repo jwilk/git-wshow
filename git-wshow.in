@@ -98,7 +98,7 @@ then
 fi
 if [ "${BROWSER-}" = echo ]
 then
-    echo "$url"
+    printf '%s\n' "$url"
     exit
 fi
 for browser in sensible-browser xdg-open
