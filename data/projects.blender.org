@@ -1,0 +1,7 @@
+[rules]
+https://projects.blender.org/* = https://projects.blender.org/$repo/commit/$commit
+
+[tests]
+https://projects.blender.org/blender/oss-attribution-builder = https://projects.blender.org/blender/oss-attribution-builder/commit/86e2e7abab19e75e1994853a34e1f535a7432991
+
+# vim:ft=dosini
