@@ -1,0 +1,7 @@
+[rules]
+https://jugit.fz-juelich.de/* = https://jugit.fz-juelich.de/$repo/commit/$commit
+
+[tests]
+https://jugit.fz-juelich.de/mlz/libcerf.git = https://jugit.fz-juelich.de/mlz/libcerf/commit/a471d91441c300120992884841b01f876d6b8ca1
+
+# vim:ft=dosini
