@@ -1,0 +1,7 @@
+[rules]
+https://gitea.quitesimple.org/* = https://gitea.quitesimple.org/$repo/commit/$commit
+
+[tests]
+https://gitea.quitesimple.org/crtxcr/asteriskify = https://gitea.quitesimple.org/crtxcr/asteriskify/commit/73234928368a5bd1b076cff9e505d4faab9366d7
+
+# vim:ft=dosini
