@@ -41,5 +41,18 @@ jobs:
       run: |
         pip install restructuredtext-lint pygments
         rst-lint --level=info --encoding=UTF-8 README
+  network:
+    runs-on: ubuntu-latest
+    container: lycheeverse/lychee
+    steps:
+    - uses: actions/checkout@v3
+    - name: run tests
+      run:
+        grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/*
+        | grep -vF
+          -e '/git.elephly.net/'
+          -e '/git.sigxcpu.org/'
+          -e '/git.webkit.org/'
+        | NO_COLOR=1 lychee --verbose --no-progress -
 
 # vim:ts=2 sts=2 sw=2 et
