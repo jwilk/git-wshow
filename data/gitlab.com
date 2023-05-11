@@ -2,6 +2,6 @@
 https://gitlab.com/* = https://gitlab.com/$repo/commit/$commit
 
 [tests]
-https://gitlab.com/pycqa/flake8-polyfill.git = https://gitlab.com/pycqa/flake8-polyfill/commit/708747a008adb050a549834d0f539afed89f22f3
+https://gitlab.com/federicomenaquintero/bzip2.git = https://gitlab.com/federicomenaquintero/bzip2/commit/17a7a0ebfa220c170be07646711a47b07cc264fb
 
 # vim:ft=dosini
