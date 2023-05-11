@@ -2,6 +2,6 @@
 https://notabug.org/* = https://notabug.org/$repo/commit/$commit
 
 [tests]
-https://notabug.org/kl3/spm = https://notabug.org/kl3/spm/commit/2ac8d1947dab3f545fe42d910681dd0253cb79a3
+https://notabug.org/peers/forgefed = https://notabug.org/peers/forgefed/commit/8961aa77896bb218b368e98b3b1b51b55335359a
 
 # vim:ft=dosini
