@@ -1,7 +1,7 @@
 [rules]
-git://git.linta.de/~brodo/* = https://git.subdivi.de/?p=~brodo/$repo.git;a=commitdiff;h=$commit
+git://git.linta.de/* = https://git.linta.de/$repo.git/commit/?id=$commit
 
 [tests]
-git://git.linta.de/~brodo/journald-ai.git = https://git.subdivi.de/?p=~brodo/journald-ai.git;a=commitdiff;h=d18bed11ab7046f058068fcc8875151e907c8e6c
+git://git.linta.de/~brodo/journald-ai.git = https://git.linta.de/~brodo/journald-ai.git/commit/?id=d18bed11ab7046f058068fcc8875151e907c8e6c
 
 # vim:ft=dosini
