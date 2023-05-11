@@ -1,7 +1,7 @@
 [rules]
-git://git.subdivi.de/~helmut/* = https://git.subdivi.de/?p=~helmut/$repo.git;a=commitdiff;h=$commit
+git://git.subdivi.de/* = https://git.subdivi.de/$repo.git/commit/?id=$commit
 
 [tests]
-git://git.subdivi.de/~helmut/debian-dedup.git = https://git.subdivi.de/?p=~helmut/debian-dedup.git;a=commitdiff;h=e77a1ebf8bda10494088bb6c72873d8ef214e0f3
+git://git.subdivi.de/~helmut/debian-dedup.git = https://git.subdivi.de/~helmut/debian-dedup.git/commit/?id=e77a1ebf8bda10494088bb6c72873d8ef214e0f3
 
 # vim:ft=dosini
