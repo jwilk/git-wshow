@@ -1,0 +1,7 @@
+[rules]
+https://evilpiepirate.org/* = https://evilpiepirate.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://evilpiepirate.org/git/sudoku.git = https://evilpiepirate.org/git/sudoku.git/commit/?id=adacfac9cebc77f9da41229f45bd6228a2e8798f
+
+# vim:ft=dosini
