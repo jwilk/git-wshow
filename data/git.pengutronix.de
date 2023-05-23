@@ -1,0 +1,7 @@
+[rules]
+https://git.pengutronix.de/git/* = https://git.pengutronix.de/cgit/$repo/commit/?id=$commit
+
+[tests]
+https://git.pengutronix.de/git/ukl/pengutronix-keyring = https://git.pengutronix.de/cgit/ukl/pengutronix-keyring/commit/?id=3dc3c02f11b135eb4a415dcb1b8e66a85c8f6e6b
+
+# vim:ft=dosini
