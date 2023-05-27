@@ -1,0 +1,7 @@
+[rules]
+git://jff.email/opt/git/* = https://jff.email/cgit/$repo.git/commit/?id=$commit
+
+[tests]
+git://jff.email/opt/git/sane-backends.git = https://jff.email/cgit/sane-backends.git/commit/?id=778ebf8ee9cb22ea5727844333bcd5a6ee6bc0de
+
+# vim:ft=dosini
