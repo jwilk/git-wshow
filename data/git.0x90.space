@@ -1,0 +1,7 @@
+[rules]
+https://git.0x90.space/* = https://git.0x90.space/$repo/commit/$commit
+
+[tests]
+https://git.0x90.space/vmann/pwnd = https://git.0x90.space/vmann/pwnd/commit/28573a9369c538f8d0db8e29c93d92c55927bbfe
+
+# vim:ft=dosini
