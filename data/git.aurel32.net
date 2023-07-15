@@ -1,0 +1,7 @@
+[rules]
+https://git.aurel32.net/* = https://git.aurel32.net/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.aurel32.net/chopstx.git/ = https://git.aurel32.net/chopstx.git/commit/?id=c191d86bf2cf19e7e4c251a8a2d880afce63163a
+
+# vim:ft=dosini
