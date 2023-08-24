@@ -1,7 +1,7 @@
 [rules]
-https://bitbucket.nwtime.org/scm/websites/* = https://bitbucket.nwtime.org/projects/WEBSITES/repos/$repo/commits/$commit
+https://bitbucket.nwtime.org/* = https://bitbucket.nwtime.org/$repo/commit/$commit
 
 [tests]
-https://bitbucket.nwtime.org/scm/websites/ntpwww.git = https://bitbucket.nwtime.org/projects/WEBSITES/repos/ntpwww/commits/5dfbccbc3e407cddf329b56e22340a0af15291d2
+https://bitbucket.nwtime.org/websites/ntpwww.git = https://bitbucket.nwtime.org/websites/ntpwww/commit/5dfbccbc3e407cddf329b56e22340a0af15291d2
 
 # vim:ft=dosini
