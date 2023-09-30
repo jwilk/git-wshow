@@ -1,0 +1,7 @@
+[rules]
+https://iankelling.org/git/* = https://iankelling.org/git/?p=$repo;a=commitdiff;h=$commit
+
+[tests]
+https://iankelling.org/git/lnf = https://iankelling.org/git/?p=lnf;a=commitdiff;h=4beb61bb80eb42f37624ad6897047dcd40262b54
+
+# vim:ft=dosini
