@@ -1,0 +1,7 @@
+[rules]
+https://akkoma.dev/* = https://akkoma.dev/$repo/commit/$commit
+
+[tests]
+https://akkoma.dev/AkkomaGang/akkoma = https://akkoma.dev/AkkomaGang/akkoma/commit/d1af78aba11a20da17bbe2a7c0bf303bf30f6323
+
+# vim:ft=dosini
