@@ -55,6 +55,7 @@ jobs:
           -e '/git.webkit.org/'
           -e '/gitlab.com/'
           -e '/icube-forge.unistra.fr/'
+          -e '/jff.email/'
         | NO_COLOR=1 lychee --verbose --no-progress -
 
 # vim:ts=2 sts=2 sw=2 et
