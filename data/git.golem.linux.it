@@ -1,0 +1,7 @@
+[rules]
+https://git.golem.linux.it/* = https://git.golem.linux.it/$repo/commit/$commit
+
+[tests]
+https://git.golem.linux.it/matteobin/PharaohResizer = https://git.golem.linux.it/matteobin/PharaohResizer/commit/5148b1182f2ed8cafbb7fe0723c40a74d5a89251
+
+# vim:ft=dosini
