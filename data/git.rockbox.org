@@ -1,0 +1,7 @@
+[rules]
+https://git.rockbox.org/* = https://git.rockbox.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.rockbox.org/cgit/rockbox.git/ = https://git.rockbox.org/cgit/rockbox.git/commit/?id=9e802be969ecc1d161fc6dec4e03b447394dc675
+
+# vim:ft=dosini
