@@ -1,0 +1,7 @@
+[rules]
+https://git.kiszka.org/* = https://git.kiszka.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.kiszka.org/togglelinewrap.git/ = https://git.kiszka.org/?p=togglelinewrap.git;a=commitdiff;h=fabc48c987d1366ddd93a72caee417180315fad5
+
+# vim:ft=dosini
