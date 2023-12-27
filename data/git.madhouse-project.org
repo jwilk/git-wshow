@@ -1,0 +1,7 @@
+[rules]
+https://git.madhouse-project.org/* = https://git.madhouse-project.org/$repo/commit/$commit
+
+[tests]
+https://git.madhouse-project.org/archive/ccze = https://git.madhouse-project.org/archive/ccze/commit/7c7927fba98275c10ae614bd8c1a1367f87a258c
+
+# vim:ft=dosini
