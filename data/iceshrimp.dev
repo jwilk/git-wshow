@@ -1,0 +1,7 @@
+[rules]
+https://iceshrimp.dev/* = https://iceshrimp.dev/$repo/commit/$commit
+
+[tests]
+https://iceshrimp.dev/iceshrimp/iceshrimp = https://iceshrimp.dev/iceshrimp/iceshrimp/commit/0a3fedfd4f5cf16b99818aa2c0a88d253e83b479
+
+# vim:ft=dosini
