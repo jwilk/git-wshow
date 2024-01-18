@@ -1,7 +1,7 @@
 [rules]
-https://git.adelielinux.org/* = https://git.adelielinux.org/$repo/commit/$commit
+https://git.adelielinux.org/adelie/* = https://cgit.adelielinux.org/$repo/commit/?id=$commit
 
 [tests]
-https://git.adelielinux.org/adelie/gcompat.git = https://git.adelielinux.org/adelie/gcompat/commit/c6921a1aa454bb87671f9bd1ecfe47d80d1620aa
+https://git.adelielinux.org/adelie/gcompat.git = https://cgit.adelielinux.org/gcompat/commit/?id=c6921a1aa454bb87671f9bd1ecfe47d80d1620aa
 
 # vim:ft=dosini
