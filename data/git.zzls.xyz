@@ -1,0 +1,7 @@
+[rules]
+https://git.zzls.xyz/* = https://git.zzls.xyz/$repo/commit/$commit
+
+[tests]
+https://git.zzls.xyz/Fijxu/anoyinginternetcheck.c = https://git.zzls.xyz/Fijxu/anoyinginternetcheck.c/commit/86cc1680493decbedd060e520ddb307436e59488
+
+# vim:ft=dosini
