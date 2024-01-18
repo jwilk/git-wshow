@@ -2,6 +2,6 @@
 https://git.pengutronix.de/git/* = https://git.pengutronix.de/cgit/$repo/commit/?id=$commit
 
 [tests]
-https://git.pengutronix.de/git/ukl/pengutronix-keyring = https://git.pengutronix.de/cgit/ukl/pengutronix-keyring/commit/?id=3dc3c02f11b135eb4a415dcb1b8e66a85c8f6e6b
+https://git.pengutronix.de/git/tools/dt-utils = https://git.pengutronix.de/cgit/tools/dt-utils/commit/?id=848841cd9459e85c8419ddca567fb4e49bbf711c
 
 # vim:ft=dosini
