@@ -50,7 +50,6 @@ jobs:
       run:
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/*
         | grep -vF
-          -e '/git.elephly.net/'
           -e '/git.sigxcpu.org/'
           -e '/git.webkit.org/'
           -e '/gitlab.com/'
