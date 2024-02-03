@@ -1,0 +1,7 @@
+[rules]
+https://vcs-git.duckcorp.org/* = https://vcs-git-viewer.duckcorp.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://vcs-git.duckcorp.org/projects/bip/bip.git = https://vcs-git-viewer.duckcorp.org/?p=projects/bip/bip.git;a=commitdiff;h=c6a872ed6150e9a55e4dd720bfe3b873b12e0ab1
+
+# vim:ft=dosini
