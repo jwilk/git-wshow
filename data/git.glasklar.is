@@ -1,0 +1,7 @@
+[rules]
+https://git.glasklar.is/* = https://git.glasklar.is/$repo/commit/$commit
+
+[tests]
+https://git.glasklar.is/sigsum/core/sigsum-py.git = https://git.glasklar.is/sigsum/core/sigsum-py/commit/7581308af26e3b88f509a8eaffe1d31f9c61d70a
+
+# vim:ft=dosini
