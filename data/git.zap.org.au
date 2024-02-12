@@ -1,0 +1,7 @@
+[rules]
+https://git.zap.org.au/git/* = https://www.zap.org.au/git-browser/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.zap.org.au/git/console-fonts-utils.git/ = https://www.zap.org.au/git-browser/console-fonts-utils.git/commit/?id=67b90d31f19ba02611942625eba7ecbbc806ccf2
+
+# vim:ft=dosini
