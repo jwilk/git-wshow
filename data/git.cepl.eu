@@ -1,0 +1,7 @@
+[rules]
+https://git.cepl.eu/* = https://git.cepl.eu/$repo/commit/?id=$commit
+
+[tests]
+https://git.cepl.eu/cgit/python/nntplib = https://git.cepl.eu/cgit/python/nntplib/commit/?id=f85c97e9f14a893424f96ced0b4a517369b918c0
+
+# vim:ft=dosini
