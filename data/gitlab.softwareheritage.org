@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.softwareheritage.org/* = https://gitlab.softwareheritage.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.softwareheritage.org/swh/devel/swh-docs.git = https://gitlab.softwareheritage.org/swh/devel/swh-docs/commit/535be235fe3da0cb9f05b6883e51e7dd15d00a8d
+
+# vim:ft=dosini
