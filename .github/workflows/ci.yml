@@ -43,10 +43,9 @@ jobs:
         rst-lint --level=info --encoding=UTF-8 README
   network:
     runs-on: ubuntu-latest
-    container: lycheeverse/lychee
     steps:
     - uses: actions/checkout@v4
-    - name: run tests
+    - name: extract URLs
       run:
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/*
         | grep -vF
@@ -56,6 +55,11 @@ jobs:
           -e '/icube-forge.unistra.fr/'
           -e '/jff.email/'
           -e '/git.gavinhoward.com/'
-        | NO_COLOR=1 lychee --verbose --no-progress -
+        > lychee.urls
+    - name: check URLs
+      uses: lycheeverse/lychee-action@v1
+      with:
+        fail: true
+        args: --verbose --no-progress lychee.urls
 
 # vim:ts=2 sts=2 sw=2 et
