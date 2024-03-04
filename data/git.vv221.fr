@@ -1,0 +1,7 @@
+[rules]
+https://git.vv221.fr/* = https://git.vv221.fr/$repo/commit/?id=$commit
+
+[tests]
+https://git.vv221.fr/deb-bpo-builder = https://git.vv221.fr/deb-bpo-builder/commit/?id=29eb196224d54752fc1b1d514d1f29fdbbae3fa6
+
+# vim:ft=dosini
