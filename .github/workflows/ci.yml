@@ -55,7 +55,11 @@ jobs:
           -e '/icube-forge.unistra.fr/'
           -e '/jff.email/'
           -e '/git.gavinhoward.com/'
+          -e '/review.coreboot.org/'
+          -e '/git.seabios.org/'
         > lychee.urls
+        # FIXME: 404 review.coreboot.org
+        # FIXME: 404 git.seabios.org
     - name: check URLs
       uses: lycheeverse/lychee-action@v1
       with:
