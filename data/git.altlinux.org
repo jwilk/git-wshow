@@ -1,0 +1,9 @@
+[rules]
+git://git.altlinux.org/people/ldv/packages/* = https://git.altlinux.org/people/ldv/packages/?p=$repo.git;a=commitdiff;h=$commit
+https://git.altlinux.org/people/ldv/packages/* = https://git.altlinux.org/people/ldv/packages/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+git://git.altlinux.org/people/ldv/packages/libutempter.git = https://git.altlinux.org/people/ldv/packages/?p=libutempter.git;a=commitdiff;h=9f291816a746292547ac8aaea0c88e16fc2fb29a
+https://git.altlinux.org/people/ldv/packages/libutempter.git = https://git.altlinux.org/people/ldv/packages/?p=libutempter.git;a=commitdiff;h=9f291816a746292547ac8aaea0c88e16fc2fb29a
+
+# vim:ft=dosini
