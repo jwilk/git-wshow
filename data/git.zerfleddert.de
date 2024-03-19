@@ -1,0 +1,7 @@
+[rules]
+https://git.zerfleddert.de/git/* = https://git.zerfleddert.de/cgi-bin/gitweb.cgi/$repo/commitdiff/$commit
+
+[tests]
+https://git.zerfleddert.de/git/m1-debian = https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/commitdiff/01cd7ce3e84889067b2674e3207c007c93b9e523
+
+# vim:ft=dosini
