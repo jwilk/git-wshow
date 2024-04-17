@@ -1,0 +1,7 @@
+[rules]
+https://forge.icube.unistra.fr/* = https://forge.icube.unistra.fr/$repo/commit/$commit
+
+[tests]
+https://forge.icube.unistra.fr/icps/c23-library.git = https://forge.icube.unistra.fr/icps/c23-library/commit/901c84fcdde1e55736ec702349d18626a127571f
+
+# vim:ft=dosini
