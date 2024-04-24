@@ -30,6 +30,13 @@ my %rules = ();
 my %coverage = ();
 my %tests = ();
 
+sub cmp_lines
+{
+    my @lines = @_;
+    @lines = map { s/[*]/\x{10FFFD}/rg } @lines;
+    return $lines[0] lt $lines[1];
+}
+
 my @data_files = glob("$basedir/data/*");
 for my $path (@data_files) {
     $path =~ $filter or next;
@@ -64,7 +71,7 @@ for my $path (@data_files) {
         }
         if ($section eq 'rules') {
             if ($line =~ /(\w\S*) = (\w\S*)$/) {
-                if ($line le $prev_line) {
+                if (not cmp_lines($prev_line, $line)) {
                    die "$path:$NR: unsorted lines";
                 }
                 $prev_line = $line;
