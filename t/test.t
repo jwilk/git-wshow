@@ -26,6 +26,7 @@ if (@ARGV) {
     $filter = qr{/(?:$r)\z};
 }
 
+my @rules = ();
 my %rules = ();
 my %coverage = ();
 my %tests = ();
@@ -80,6 +81,7 @@ for my $path (@data_files) {
                    die "$path:$NR: duplicate $src";
                 };
                 $rules{$src} = $dst;
+                push @rules, $src;
                 $coverage{$src} = 0;
                 next;
             }
@@ -115,11 +117,12 @@ my $fake_commit = capture(@gitcmd, 'rev-parse', 'HEAD');
 chomp $fake_commit;
 
 while (my ($repo, $url) = each %tests) {
-    for my $url_template (keys %rules) {
+    for my $url_template (@rules) {
         my $url_re = quotemeta $url_template;
         $url_re =~ s{\\[*]}{.*}g;
         if ($repo =~ qr{\A$url_re\z$}) {
             $coverage{$url_template} += 1;
+            last;
         }
     }
     if (defined $url) {
