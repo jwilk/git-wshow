@@ -1,0 +1,7 @@
+[rules]
+https://forge.apps.education.fr/* = https://forge.apps.education.fr/$repo/commit/$commit
+
+[tests]
+https://forge.apps.education.fr/educajou/tuxblocs = https://forge.apps.education.fr/educajou/tuxblocs/commit/aab968cba5c6e16855778a05621692e0d1d63bf3
+
+# vim:ft=dosini
