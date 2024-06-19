@@ -1,0 +1,7 @@
+[rules]
+https://git.fruit.je/* = https://git.fruit.je/$repo/commit/$commit/
+
+[tests]
+https://git.fruit.je/unsort/ = https://git.fruit.je/unsort/commit/9a083180d34f27f49a23b4dc0d432c00d1ecbcfe/
+
+# vim:ft=dosini
