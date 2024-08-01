@@ -1,0 +1,9 @@
+[rules]
+git://erdgeist.org/* = https://erdgeist.org/gitweb/$repo/commit/?id=$commit
+https://erdgeist.org/gitweb/* = https://erdgeist.org/gitweb/$repo/commit/?id=$commit
+
+[tests]
+git://erdgeist.org/opentracker = https://erdgeist.org/gitweb/opentracker/commit/?id=c854b3db9bf620e86481acfcc9fc31eba64bc8e6
+https://erdgeist.org/gitweb/opentracker = https://erdgeist.org/gitweb/opentracker/commit/?id=c854b3db9bf620e86481acfcc9fc31eba64bc8e6
+
+# vim:ft=dosini
