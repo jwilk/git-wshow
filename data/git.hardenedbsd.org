@@ -1,0 +1,7 @@
+[rules]
+https://git.hardenedbsd.org/* = https://git.hardenedbsd.org/$repo/commit/$commit
+
+[tests]
+https://git.hardenedbsd.org/hardenedbsd/HardenedBSD.git = https://git.hardenedbsd.org/hardenedbsd/HardenedBSD/commit/e3f33c64ec168a48038309af0c237eda86d10c74
+
+# vim:ft=dosini
