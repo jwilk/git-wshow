@@ -1,0 +1,7 @@
+[rules]
+https://git.dotslashplay.it/* = https://git.dotslashplay.it/$repo/commit/?id=$commit
+
+[tests]
+https://git.dotslashplay.it/scripts = https://git.dotslashplay.it/scripts/commit/?id=80064408ac50ee482f98b4dcae4a0dde1c028c56
+
+# vim:ft=dosini
