@@ -1,0 +1,7 @@
+[rules]
+https://git.in-ulm.de/* = https://git.in-ulm.de/$repo/commit/$commit
+
+[tests]
+https://git.in-ulm.de/cbiedl/tcpreplay = https://git.in-ulm.de/cbiedl/tcpreplay/commit/f467f429b2e208ca01902cf2f915706c131e97c7
+
+# vim:ft=dosini
