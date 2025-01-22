@@ -57,7 +57,7 @@ jobs:
       run: |
         args=(
           -e '/git.sigxcpu.org/'
-          -e '/git.webkit.org/'
+          -e '/git.webkit.org/'  # HTTP 404
           -e '/gitlab.com/'
           -e '/icube-forge.unistra.fr/'
           -e '/jff.email/'  # IPv4 misconfiguration <20231023201111.gosefghj357uie6x@jwilk.net>
