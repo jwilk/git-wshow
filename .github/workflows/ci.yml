@@ -46,6 +46,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - name: test IPv4 connectivity
+      run:
+        curl -sv4 http://example.org > /dev/null
+    - name: test IPv6 connectivity
+      run:
+        curl -sv6 http://example.org > /dev/null
+      continue-on-error: true
     - name: extract URLs
       run:
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/*
