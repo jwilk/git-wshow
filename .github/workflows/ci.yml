@@ -66,6 +66,7 @@ jobs:
           -e '/git.seabios.org/'  # HTTP 404
           -e '/bitbucket.nwtime.org/'  # HTTP 500
           -e '/gerrit.ovirt.org/'  # HTTP 502
+          -e '/git.ghostscript.com/'  # HTTP 404
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
