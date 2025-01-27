@@ -56,16 +56,17 @@ jobs:
     - name: extract URLs
       run: |
         args=(
-          -e '/git.webkit.org/'  # HTTP 404
           -e '/icube-forge.unistra.fr/'  # network error
           -e '/jff.email/'  # IPv4 misconfiguration <20231023201111.gosefghj357uie6x@jwilk.net>
           -e '/git.gavinhoward.com/'  # HTTP 403
+          -e '/git.sesse.net/'  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
+          -e '/git.sr.ht/'  # HTTP 403
+          # these are broken also outside CI env:
+          -e '/git.webkit.org/'  # HTTP 404
           -e '/review.coreboot.org/'  # HTTP 404
           -e '/git.seabios.org/'  # HTTP 404
           -e '/gerrit.ovirt.org/'  # HTTP 502
           -e '/git.ghostscript.com/'  # HTTP 404
-          -e '/git.sesse.net/'  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
-          -e '/git.sr.ht/'  # HTTP 403
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
