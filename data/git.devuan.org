@@ -1,0 +1,7 @@
+[rules]
+https://git.devuan.org/* = https://git.devuan.org/$repo/commit/$commit
+
+[tests]
+https://git.devuan.org/LeePen/unit-translator = https://git.devuan.org/LeePen/unit-translator/commit/b9a1f74edcee8c48eb5cd8690b6f92caa346be46
+
+# vim:ft=dosini
