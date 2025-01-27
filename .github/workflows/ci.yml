@@ -61,7 +61,7 @@ jobs:
           -e '/gitlab.com/'
           -e '/icube-forge.unistra.fr/'
           -e '/jff.email/'  # IPv4 misconfiguration <20231023201111.gosefghj357uie6x@jwilk.net>
-          -e '/git.gavinhoward.com/'
+          -e '/git.gavinhoward.com/'  # HTTP 403
           -e '/review.coreboot.org/'  # HTTP 404
           -e '/git.seabios.org/'  # HTTP 404
           -e '/bitbucket.nwtime.org/'  # HTTP 500
