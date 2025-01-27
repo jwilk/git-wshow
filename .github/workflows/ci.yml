@@ -56,7 +56,6 @@ jobs:
     - name: extract URLs
       run: |
         args=(
-          -e '/git.sigxcpu.org/'
           -e '/git.webkit.org/'  # HTTP 404
           -e '/gitlab.com/'
           -e '/icube-forge.unistra.fr/'  # network error
