@@ -59,7 +59,7 @@ jobs:
           -e '/git.sigxcpu.org/'
           -e '/git.webkit.org/'  # HTTP 404
           -e '/gitlab.com/'
-          -e '/icube-forge.unistra.fr/'
+          -e '/icube-forge.unistra.fr/'  # network error
           -e '/jff.email/'  # IPv4 misconfiguration <20231023201111.gosefghj357uie6x@jwilk.net>
           -e '/git.gavinhoward.com/'  # HTTP 403
           -e '/review.coreboot.org/'  # HTTP 404
