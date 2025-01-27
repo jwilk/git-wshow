@@ -68,6 +68,7 @@ jobs:
           -e '/gerrit.ovirt.org/'  # HTTP 502
           -e '/git.ghostscript.com/'  # HTTP 404
           -e '/git.sesse.net/'  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
+          -e '/git.sr.ht/'  # HTTP 403
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
