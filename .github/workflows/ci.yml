@@ -62,7 +62,6 @@ jobs:
           -e '/git.gavinhoward.com/'  # HTTP 403
           -e '/review.coreboot.org/'  # HTTP 404
           -e '/git.seabios.org/'  # HTTP 404
-          -e '/bitbucket.nwtime.org/'  # HTTP 500
           -e '/gerrit.ovirt.org/'  # HTTP 502
           -e '/git.ghostscript.com/'  # HTTP 404
           -e '/git.sesse.net/'  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
