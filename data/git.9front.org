@@ -1,0 +1,7 @@
+[rules]
+git://git.9front.org/* = https://git.9front.org/$repo/$commit/commit.html
+
+[tests]
+git://git.9front.org/plan9front/drawterm = https://git.9front.org/plan9front/drawterm/daf2ab4550e555cdb6c58f2a9e647c2259a634de/commit.html
+
+# vim:ft=dosini
