@@ -1,0 +1,7 @@
+[rules]
+https://scm.sourcemage.org/* = https://scm.sourcemage.org/$repo.git/commit/?id=$commit
+
+[tests]
+https://scm.sourcemage.org/smgl/sorcery.git = https://scm.sourcemage.org/smgl/sorcery.git/commit/?id=bfc15982dec9c5ab84607b98c98493611c14ba8a
+
+# vim:ft=dosini
