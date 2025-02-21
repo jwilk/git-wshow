@@ -1,0 +1,7 @@
+[rules]
+https://git.rrq.au/git/* = https://git.rrq.au/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://git.rrq.au/git/rrq/blockdomains.git = https://git.rrq.au/?p=rrq/blockdomains.git;a=commitdiff;h=d0f71ff5b1a832807d301ed6fe2a03a0efdd89ac
+
+# vim:ft=dosini
