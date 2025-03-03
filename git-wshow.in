@@ -101,6 +101,7 @@ then
     printf '%s\n' "$url"
     exit
 fi
+# TODO: use git-web--browse?
 for browser in sensible-browser xdg-open
 do
     command -v "$browser" > /dev/null && break
