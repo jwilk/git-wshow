@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.exherbo.org/* = https://gitlab.exherbo.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.exherbo.org/sydbox/sydbox.git = https://gitlab.exherbo.org/sydbox/sydbox/commit/6c0ecfd0bf859a59c446134f36d219ee1ccd9bfd
+
+# vim:ft=dosini
