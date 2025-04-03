@@ -66,7 +66,6 @@ jobs:
           -e '/review.coreboot.org/'  # HTTP 404
           -e '/git.seabios.org/'  # HTTP 404
           -e '/gerrit.ovirt.org/'  # HTTP 502
-          -e '/git.ghostscript.com/'  # HTTP 404
           -e '/keithp.com/'  # HTTP 404, connection errors
           -e '/git.skoll.ca/'  # HTTP 401
         )
