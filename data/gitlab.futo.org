@@ -1,0 +1,7 @@
+[rules]
+https://gitlab.futo.org/* = https://gitlab.futo.org/$repo/commit/$commit
+
+[tests]
+https://gitlab.futo.org/alex/pocketfft-jni.git = https://gitlab.futo.org/alex/pocketfft-jni/commit/d419237790645afc639a9c848bd911d1051b0d0a
+
+# vim:ft=dosini
