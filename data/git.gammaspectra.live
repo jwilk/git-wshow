@@ -1,0 +1,7 @@
+[rules]
+https://git.gammaspectra.live/* = https://git.gammaspectra.live/$repo/commit/$commit
+
+[tests]
+https://git.gammaspectra.live/git/go-away = https://git.gammaspectra.live/git/go-away/commit/e1a318bc38097e2930f448dd5155addd3d382098
+
+# vim:ft=dosini
