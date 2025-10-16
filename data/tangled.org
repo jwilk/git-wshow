@@ -1,0 +1,7 @@
+[rules]
+https://tangled.org/@rcsheets.net/* = https://tangled.org/@rcsheets.net/$repo/commit/$commit
+
+[tests]
+https://tangled.org/@rcsheets.net/acme-lantern = https://tangled.org/@rcsheets.net/acme-lantern/commit/c597ce89bd607d651624febd021b9f6c7cce6d76
+
+# vim:ft=dosini
