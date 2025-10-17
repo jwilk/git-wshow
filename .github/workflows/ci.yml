@@ -69,6 +69,7 @@ jobs:
           -e '/git.pengutronix.de/'  # timeout
           -e '/git.sigxcpu.org/'  # HTTP 502
           -e '/notabug.org/'  # HTTP 502
+          -e '/git.netfilter.org/'  # timeout
           # URLs ill-supported by lychee <https://github.com/lycheeverse/lychee/issues/1872>:
           -e '/android.googlesource.com/'
           # these are broken also outside CI env:
