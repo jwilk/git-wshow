@@ -1,0 +1,7 @@
+[rules]
+https://git.nadeko.net/* = https://git.nadeko.net/$repo/commit/$commit
+
+[tests]
+https://git.nadeko.net/Fijxu/anoyinginternetcheck.c = https://git.nadeko.net/Fijxu/anoyinginternetcheck.c/commit/86cc1680493decbedd060e520ddb307436e59488
+
+# vim:ft=dosini
