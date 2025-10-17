@@ -2,6 +2,6 @@
 https://git.envs.net/* = https://git.envs.net/$repo/commit/$commit
 
 [tests]
-https://git.envs.net/mpech/ascii-crc = https://git.envs.net/mpech/ascii-crc/commit/e683c7b00a72e5298c603c92cbf018580d3d3b54
+https://git.envs.net/envs/help = https://git.envs.net/envs/help/commit/7913443756f8b65b8f4f79f8594a7f5c0690a3e5
 
 # vim:ft=dosini
