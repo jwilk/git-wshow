@@ -61,6 +61,16 @@ jobs:
           -e '/git.gavinhoward.com/'  # HTTP 403
           -e '/git.sesse.net/'  # https://blog.sesse.net/blog/tech/2024-12-31-09-48_git_sesse_net_goes_ipv6_only
           -e '/git.sr.ht/'  # HTTP 403
+          -e '/cgit.freedesktop.org/'  # timeout
+          -e '/git.busybox.net/'  # timeout
+          -e '/git.gnu.org.ua/'  # HTTP 429
+          -e '/git.musl-libc.org/'  # timeout
+          -e '/git.openwrt.org/'  # timeout
+          -e '/git.pengutronix.de/'  # timeout
+          -e '/git.sigxcpu.org/'  # HTTP 502
+          -e '/notabug.org/'  # HTTP 502
+          # URLs ill-supported by lychee <https://github.com/lycheeverse/lychee/issues/1872>:
+          -e '/android.googlesource.com/'
           # these are broken also outside CI env:
           -e '/review.coreboot.org/'  # HTTP 404
           -e '/git.seabios.org/'  # HTTP 404
@@ -68,6 +78,27 @@ jobs:
           -e '/keithp.com/'  # HTTP 404, connection errors
           -e '/git.skoll.ca/'  # HTTP 401
           -e '/git.guilhem.org/'  # timeout
+          -e '/aur.archlinux.org/'  # HTTP 502
+          -e '/bues.ch/'  # HTTP 403 without Referer
+          -e '/cgit.adelielinux.org/'  # timeout or HTTP 503
+          -e '/cgit.ghostscript.com/'  # HTTP 401
+          -e '/code.opensuse.org/'  # HTTP 403
+          -e '/evolvis.org/'  # timeout or HTTP 401
+          -e '/ezix.org/'  # HTTP 403
+          -e '/git.breakpoint.cc/'  # HTTP 502
+          -e '/git.eyrie.org/'  # HTTP 403
+          -e '/git.joeyh.name/'  # HTTP 503
+          -e '/git.kraxel.org/'  # timeout
+          -e '/git.lighttpd.net/'  # HTTP 402
+          -e '/git.marlam.de/'  # HTTP 403
+          -e '/git.remlab.net/'  # HTTP 503
+          -e '/git.unit193.net/'  # timeout
+          -e '/gitlab.isc.org/'  # connection error
+          -e '/ncurses.scripts.mit.edu/'  # HTTP 503
+          -e '/projects.blender.org/'  # HTTP 403
+          # JS-based anti-bot protection:
+          -e '/git.nadeko.net/'  # HTTP 418
+          -e '/git.zzls.xyz/'  # HTTP 418
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
