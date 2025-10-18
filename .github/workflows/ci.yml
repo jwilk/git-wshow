@@ -97,6 +97,9 @@ jobs:
           -e '/gitlab.isc.org/'  # connection error
           -e '/ncurses.scripts.mit.edu/'  # HTTP 503
           -e '/projects.blender.org/'  # HTTP 403
+          -e '/code.lm7.fr/'  # timeout
+          -e '/fedorapeople.org/'  # HTTP 500
+          -e '/gitlab.tails.boum.org/'  # HTTP 502
           # JS-based anti-bot protection:
           -e '/git.nadeko.net/'  # HTTP 418
           -e '/git.zzls.xyz/'  # HTTP 418
