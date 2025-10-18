@@ -1,0 +1,7 @@
+[rules]
+https://the.earth.li/git/* = https://the.earth.li/gitweb/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://the.earth.li/git/onak.git = https://the.earth.li/gitweb/?p=onak.git;a=commitdiff;h=753f47758c45a4cccd2cbe7cdc93aa7a08c34590
+
+# vim:ft=dosini
