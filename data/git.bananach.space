@@ -1,0 +1,7 @@
+[rules]
+https://git.bananach.space/* = https://git.bananach.space/$repo.git/commit/?id=$commit
+
+[tests]
+https://git.bananach.space/advtrains_netmapper.git/ = https://git.bananach.space/advtrains_netmapper.git/commit/?id=faf8d88167f065ba3b2829badef14a31c4574971
+
+# vim:ft=dosini
