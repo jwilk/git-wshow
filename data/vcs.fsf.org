@@ -1,0 +1,7 @@
+[rules]
+https://vcs.fsf.org/git/* = https://vcs.fsf.org/?p=$repo.git;a=commitdiff;h=$commit
+
+[tests]
+https://vcs.fsf.org/git/patentabsurdity.com.git = https://vcs.fsf.org/?p=patentabsurdity.com.git;a=commitdiff;h=1ba8c8894ad545674f8e80c66a277ae35381a26c
+
+# vim:ft=dosini
