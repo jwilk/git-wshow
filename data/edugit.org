@@ -2,6 +2,6 @@
 https://edugit.org/* = https://edugit.org/$repo/commit/$commit
 
 [tests]
-https://edugit.org/nik/itsallghosts.git = https://edugit.org/nik/itsallghosts/commit/a6dffd1acc23809b2f5af83e9c89af738e9d9b4a
+https://edugit.org/infrablue/python-bigbluebutton2.git = https://edugit.org/infrablue/python-bigbluebutton2/commit/5c40ec6933eb97a9736b1640f68edfb6bc952be9
 
 # vim:ft=dosini
