@@ -1,0 +1,7 @@
+[rules]
+ssh://anonymous@git.rkta.de/* = https://git.rkta.de/?action=diff&commit=$commit&path=$repo
+
+[tests]
+ssh://anonymous@git.rkta.de/h2g = https://git.rkta.de/?action=diff&commit=fcabe874f90e517cea3e21a98a7b2818770eb00e&path=h2g
+
+# vim:ft=dosini
