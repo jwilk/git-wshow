@@ -1,0 +1,7 @@
+[rules]
+https://git.dillo-browser.org/* = https://git.dillo-browser.org/$repo/commit/?id=$commit
+
+[tests]
+https://git.dillo-browser.org/buggy = https://git.dillo-browser.org/buggy/commit/?id=60155af5273f0a28eb69b7f4180ab350c9332993
+
+# vim:ft=dosini
