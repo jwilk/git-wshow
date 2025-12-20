@@ -1,0 +1,7 @@
+[rules]
+https://chaos.expert/* = https://chaos.expert/$repo/commit/$commit
+
+[tests]
+https://chaos.expert/sur5r/pdfstitch.git = https://chaos.expert/sur5r/pdfstitch/commit/d867a7306e1ec5ea0074a91f5123e66a154d14f4
+
+# vim:ft=dosini
