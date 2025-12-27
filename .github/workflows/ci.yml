@@ -41,7 +41,7 @@ jobs:
     - name: check README syntax
       run: |
         pip install restructuredtext-lint pygments
-        rst-lint --level=info --encoding=UTF-8 README
+        rst-lint --level=info README
   network:
     runs-on: ubuntu-latest
     steps:
