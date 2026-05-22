@@ -1,0 +1,7 @@
+[rules]
+https://github.molgen.mpg.de/* = https://github.molgen.mpg.de/$repo/commit/$commit
+
+[tests]
+https://github.molgen.mpg.de/mariux64/mxtools = https://github.molgen.mpg.de/mariux64/mxtools/commit/bb6341eef30a9254ecb1a6ce90c728c1a05ccd7b
+
+# vim:ft=dosini
