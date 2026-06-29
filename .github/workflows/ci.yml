@@ -71,6 +71,12 @@ jobs:
           -e '/git.sigxcpu.org/'  # HTTP 502
           -e '/notabug.org/'  # HTTP 502
           -e '/git.netfilter.org/'  # timeout
+          -e '/code.uplex.de/liblongpath/'  # timeout
+          -e '/git.archive.openwrt.org/'  # HTTP 502
+          -e '/git.rkta.de/'  # timeout
+          -e '/git.synz.io/'  # timeout
+          -e '/git.yoctoproject.org/'  # HTTP 403
+          -e '/gitlab.manjaro.org/'  # timeout
           # URLs ill-supported by lychee <https://github.com/lycheeverse/lychee/issues/1872>:
           -e '/android.googlesource.com/'
           # these are broken also outside CI env:
@@ -101,9 +107,26 @@ jobs:
           -e '/code.lm7.fr/'  # timeout
           -e '/fedorapeople.org/'  # HTTP 500
           -e '/gitlab.tails.boum.org/'  # HTTP 502
+          -e '/bitbucket.hdfgroup.org/'  # connection errors
+          -e '/bitbucket.nwtime.org/'  # broken TLS
+          -e '/forge.dotslashplay.it/'  # connecion errors
+          -e '/git.bananach.space/'  # timeout
+          -e '/git.dotslashplay.it/'  # connecion errors
+          -e '/git.hardenedbsd.org/'  # HTTP 502
+          -e '/git.pleroma.social/'  # HTTP 403
+          -e '/git.tartarus.org/'  # HTTP 403
+          -e '/git.vv221.fr/'  # connection errors
+          -e '/git.xapian.org/'  # HTTP 403
+          -e '/gitlab.onelab.info/'  # timeout
+          -e '/gitlab.softwareheritage.org/'  # HTTP 403
+          -e '/gitlab.torproject.org/'  # HTTP 403
+          -e '/gitweb.torproject.org/'  # HTTP 403
+          -e '/vcs.fsf.org/'  # HTTP 503
           # JS-based anti-bot protection:
           -e '/git.nadeko.net/'  # HTTP 418
           -e '/git.zzls.xyz/'  # HTTP 418
+          -e '/git.ipfire.org/'  # HTTP 401
+          -e '/gitgud.io/'  # HTTP 403
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
