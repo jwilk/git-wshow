@@ -1,0 +1,7 @@
+[rules]
+https://git.gay/* = https://git.gay/$repo/commit/$commit
+
+[tests]
+https://git.gay/49016/NoPoW = https://git.gay/49016/NoPoW/commit/6d441fe3289687f7cd154c9bb568062c6637277a
+
+# vim:ft=dosini
