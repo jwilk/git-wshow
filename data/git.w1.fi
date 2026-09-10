@@ -1,0 +1,7 @@
+[rules]
+https://git.w1.fi/* = https://git.w1.fi/cgit/$repo/commit/?id=$commit
+
+[tests]
+https://git.w1.fi/hostap.git = https://git.w1.fi/cgit/hostap/commit/?id=91b6eba7732354ed3dfe0aa9715dc4c0746e3336
+
+# vim:ft=dosini
