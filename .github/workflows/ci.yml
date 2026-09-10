@@ -77,6 +77,8 @@ jobs:
           -e '/git.synz.io/'  # timeout
           -e '/git.yoctoproject.org/'  # HTTP 403
           -e '/gitlab.manjaro.org/'  # timeout
+          -e '/git.9front.org/'  # HTTP 404
+          -e '/git.gay/'  # HTTP 403
           # URLs ill-supported by lychee <https://github.com/lycheeverse/lychee/issues/1872>:
           -e '/android.googlesource.com/'
           # these are broken also outside CI env:
@@ -122,11 +124,18 @@ jobs:
           -e '/gitlab.torproject.org/'  # HTTP 403
           -e '/gitweb.torproject.org/'  # HTTP 403
           -e '/vcs.fsf.org/'  # HTTP 503
+          -e '/edugit.org/'  # timeout
+          -e '/git.dereenigne.org/'  # timeout
+          -e '/git.lysator.liu.se/'  # HTTP 429
+          -e '/git.notmuchmail.org/'  # HTTP 403
+          -e '/git.decadent.org.uk/'  # HTTP 404
+          -e '/arthurdejong.org/'  # timeout
           # JS-based anti-bot protection:
           -e '/git.nadeko.net/'  # HTTP 418
           -e '/git.zzls.xyz/'  # HTTP 418
           -e '/git.ipfire.org/'  # HTTP 401
           -e '/gitgud.io/'  # HTTP 403
+          -e '/gitlab.kitware.com/'  # HTTP 403
         )
         grep -hoP '\bhttps://\S+\b[0-9a-f]{40,}\b\S*' data/* |
           grep -vF "${args[@]}" > lychee.urls
